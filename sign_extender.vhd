@@ -21,6 +21,6 @@ begin
    
    high_order_bits : for i in 16 to 31 generate
       z(i) <= x(15);
-   end generate low_order_bits;
+   end generate high_order_bits;
 
 end structural;
