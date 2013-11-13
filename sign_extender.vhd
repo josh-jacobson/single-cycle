@@ -15,7 +15,7 @@ architecture structural of sign_extender is
 begin
     -- Copy x to z and extend the most significant bit
     
-   low_order_bits : for i in 1 to 15 generate
+   low_order_bits : for i in 0 to 15 generate
       z(i) <= x(i);
    end generate low_order_bits;
    
