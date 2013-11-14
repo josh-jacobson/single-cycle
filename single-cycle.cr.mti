@@ -67,6 +67,15 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Compiling entity and_gate_32
 -- Compiling architecture dataflow of and_gate_32
 
+} {} {}} /home/sbb819/single-cycle/or_6.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/or_6.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity or_6
+-- Compiling architecture dataflow of or_6
+
 } {} {}} /home/sbb819/single-cycle/lib/fulladder_n.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/fulladder_n.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package standard
@@ -157,13 +166,6 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package std_logic_1164
 -- Compiling entity nand_gate_32
 -- Compiling architecture dataflow of nand_gate_32
-
-} {} {}} /home/sbb819/single-cycle/benches/or_6_test.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/benches/or_6_test.vhd
-Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
--- Loading package standard
--- Loading package std_logic_1164
--- Compiling entity or_6_test
--- Compiling architecture structural of or_6_test
 
 } {} {}} /home/sbb819/single-cycle/lib/xor_gate_n.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/xor_gate_n.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007

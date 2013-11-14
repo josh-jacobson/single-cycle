@@ -370,7 +370,7 @@ VoptFlow = 1
 
 ; Simulator resolution
 ; Set to fs, ps, ns, us, ms, or sec with optional prefix of 1, 10, or 100.
-Resolution = ns
+resolution = 1ns
 
 ; Enables certain code coverage exclusions automatically. Set AutoExclusions = none to disable.
 AutoExclusions = fsm
@@ -1078,7 +1078,7 @@ Project_File_P_7 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 
 Project_File_8 = /home/sbb819/single-cycle/lib/and_gate_32.vhd
 Project_File_P_8 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1383420297 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_warn2 1 vhdl_explicit 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 2 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work compile_order 1 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_File_9 = /home/sbb819/single-cycle/or_6.vhd
-Project_File_P_9 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1384401100 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_explicit 1 vhdl_warn2 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 2 vhdl_options {} vhdl_warn5 1 toggle - ood 0 compile_to work compile_order 39 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_P_9 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1384401100 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_explicit 1 vhdl_warn2 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 2 vhdl_options {} vhdl_warn5 1 toggle - ood 0 compile_to work compile_order 38 cover_nosub 0 dont_compile 0 vhdl_use93 2002
 Project_File_10 = /home/sbb819/single-cycle/lib/fulladder_n.vhd
 Project_File_P_10 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1383420297 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_warn2 1 vhdl_explicit 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 2 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work compile_order 9 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_File_11 = /home/sbb819/single-cycle/lib/dec_n.vhd
@@ -1102,7 +1102,7 @@ Project_File_P_19 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0
 Project_File_20 = /home/sbb819/single-cycle/lib/xnor_gate_32.vhd
 Project_File_P_20 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1383420298 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_warn2 1 vhdl_explicit 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 2 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work compile_order 28 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_File_21 = /home/sbb819/single-cycle/benches/sign_extender_demo.vhd
-Project_File_P_21 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 0 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_explicit 1 vhdl_warn2 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 2 vhdl_options {} vhdl_warn5 1 toggle - ood 1 compile_to work compile_order 38 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_P_21 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 0 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_explicit 1 vhdl_warn2 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 2 vhdl_options {} vhdl_warn5 1 toggle - ood 1 compile_to work compile_order 37 cover_nosub 0 dont_compile 0 vhdl_use93 2002
 Project_File_22 = /home/sbb819/single-cycle/pc_counter.vhd
 Project_File_P_22 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1384399087 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_warn2 1 vhdl_explicit 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 2 voptflow 1 vhdl_warn4 1 ood 1 toggle - vhdl_warn5 1 compile_to work compile_order 36 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_File_23 = /home/sbb819/single-cycle/lib/nand_gate_32.vhd
@@ -1110,7 +1110,7 @@ Project_File_P_23 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0
 Project_File_24 = /home/sbb819/single-cycle/lib/not_gate_32.vhd
 Project_File_P_24 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1383420298 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_warn2 1 vhdl_explicit 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 2 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work compile_order 20 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_File_25 = /home/sbb819/single-cycle/benches/or_6_test.vhd
-Project_File_P_25 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1384401434 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_explicit 1 vhdl_warn2 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 2 vhdl_options {} vhdl_warn5 1 toggle - ood 0 compile_to work compile_order 37 cover_nosub 0 dont_compile 0 vhdl_use93 2002
+Project_File_P_25 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1384401434 vhdl_disableopt 0 vhdl_vital 0 cover_excludedefault 0 vhdl_warn1 1 vhdl_explicit 1 vhdl_warn2 1 vhdl_showsource 0 vhdl_warn3 1 cover_covercells 0 vhdl_0InOptions {} vhdl_warn4 1 voptflow 1 cover_optlevel 2 vhdl_options {} vhdl_warn5 1 toggle - ood 0 compile_to work compile_order 39 cover_nosub 0 dont_compile 0 vhdl_use93 2002
 Project_File_26 = /home/sbb819/single-cycle/lib/or_gate_n.vhd
 Project_File_P_26 = vhdl_novitalcheck 0 file_type vhdl group_id 0 vhdl_nodebug 0 vhdl_1164 1 vhdl_noload 0 vhdl_synth 0 vhdl_enable0In 0 folder {Top Level} last_compile 1383420298 vhdl_disableopt 0 cover_excludedefault 0 vhdl_vital 0 vhdl_warn1 1 vhdl_showsource 0 vhdl_warn2 1 vhdl_explicit 1 vhdl_0InOptions {} cover_covercells 0 vhdl_warn3 1 vhdl_options {} cover_optlevel 2 voptflow 1 vhdl_warn4 1 ood 0 toggle - vhdl_warn5 1 compile_to work compile_order 24 dont_compile 0 cover_nosub 0 vhdl_use93 2002
 Project_File_27 = /home/sbb819/single-cycle/lib/xor_gate_n.vhd
@@ -1173,6 +1173,6 @@ LOGFILE_DoubleClick = Edit
 LOGFILE_CustomDoubleClick = 
 UCDB_DoubleClick = Edit
 UCDB_CustomDoubleClick = 
-EditorState = {tabbed horizontal 1} {/home/sbb819/single-cycle/lib/or_gate.vhd 0 0} {/home/sbb819/single-cycle/6_or.vhd 0 0} {/home/sbb819/single-cycle/lib/and_gate_32.vhd 0 0} {/home/sbb819/single-cycle/lib/nand_gate.vhd 0 0} {/home/sbb819/MGC/individual/alu32.vhd 0 0} {/home/sbb819/single-cycle/lib/or_gate_32.vhd 0 0} {/home/sbb819/single-cycle/pc_counter.vhd 0 0} {/home/sbb819/single-cycle/or_gate_3.vhd 0 0} {/home/sbb819/single-cycle/32bitreg.vhd 0 0} {/home/sbb819/single-cycle/lib/or_gate_n.vhd 0 0} {/home/sbb819/single-cycle/lib/fulladder_32.vhd 0 0} {/home/sbb819/single-cycle/benches/or_6_test.vhd 0 0} {/home/sbb819/single-cycle/benches/sign_extender_demo.vhd 0 0} {/home/sbb819/single-cycle/or_6.vhd 0 0}
+EditorState = 
 Project_Major_Version = 6
 Project_Minor_Version = 3
