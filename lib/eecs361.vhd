@@ -70,6 +70,20 @@ package eecs361 is
     );
   end component dffr;
 
+  -- D Flip-flops from Example 13-40 in http://www.altera.com/literature/hb/qts/qts_qii51007.pdf
+  component dffr_a
+    port (
+      clk	 : in  std_logic;
+      arst   : in  std_logic;
+      aload  : in  std_logic;
+      adata  : in  std_logic;
+      d	     : in  std_logic;
+      enable : in  std_logic;
+      q	     : out std_logic
+    );
+
+  end component dffr_a;
+
   -- A 32bit SRAM from Figure C.9.1. It can only be used for simulation.
   component sram
 	generic (
