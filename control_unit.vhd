@@ -6,7 +6,7 @@ use work.eecs361.all;
 entity control_unit is
   port (
        opcode  :  in  std_logic_vector(5 downto 0);
-       regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, Branch : out std_logic;
+       regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch : out std_logic;
        ALUop : out std_logic_vector(1 downto 0)
         );
 end control_unit;
