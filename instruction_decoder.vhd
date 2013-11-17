@@ -29,6 +29,10 @@ begin
       shamt(i) <= x(i+6);
    end generate rs_rt_rd_shamt;
    
+   read_funct : for i in 0 to 5 generate
+      funct(i) <= x(i);
+   end generate read_funct;
+   
    read_address : for i in 0 to 15 generate
       address(i) <= x(i);
    end generate read_address;

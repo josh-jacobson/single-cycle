@@ -29,12 +29,12 @@ begin
   instruction_decoder_map : instruction_decoder port map (x, opcode, rs, rt, rd, shamt, funct, address);
   test_proc : process
   begin
-    -- add operation
-    x <= "00000000000000000000000000000000";
+    -- add $s3, $s2, $s1
+    x <= "00000000001000100001100000100000";
     wait for 5 ns;
    
-    -- subtract operation
-    x <= "11111111111111000000000000000000";
+     -- sub $s3, $s2, $s1
+    x <= "00000000001000100001100000100010";
     wait for 5 ns;
     wait;
     
