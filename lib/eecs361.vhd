@@ -70,20 +70,6 @@ package eecs361 is
     );
   end component dffr;
 
-  -- D Flip-flops from Example 13-40 in http://www.altera.com/literature/hb/qts/qts_qii51007.pdf
-  component dffr_a
-    port (
-      clk	 : in  std_logic;
-      arst   : in  std_logic;
-      aload  : in  std_logic;
-      adata  : in  std_logic;
-      d	     : in  std_logic;
-      enable : in  std_logic;
-      q	     : out std_logic
-    );
-
-  end component dffr_a;
-
   -- A 32bit SRAM from Figure C.9.1. It can only be used for simulation.
   component sram
 	generic (
@@ -125,29 +111,4 @@ package eecs361 is
 	  dout	: out std_logic_vector(31 downto 0)
 	);
   end component syncram;
-
-  -- n-bit full adder.
-  component fulladder_n
-    generic (
-      n : integer
-    );
-    port (
-      cin   : in std_logic;
-      x     : in std_logic_vector(n-1 downto 0);
-      y     : in std_logic_vector(n-1 downto 0);
-      cout  : out std_logic;
-      z     : out std_logic_vector(n-1 downto 0)
-    );
-  end component fulladder_n;
-
-  -- 32-bit full adder.
-  component fulladder_32
-    port (
-      cin   : in std_logic;
-      x     : in std_logic_vector(31 downto 0);
-      y     : in std_logic_vector(31 downto 0);
-      z     : out std_logic_vector(31 downto 0);
-      cout  : out std_logic
-    );
-  end component fulladder_32;
 end;
