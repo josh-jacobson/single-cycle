@@ -5,7 +5,7 @@ use work.eecs361_gates.all;
 
 entity instruction_decoder is
   port (
-    x   : in  std_logic_vector(15 downto 0);
+    x   : in  std_logic_vector(31 downto 0);
     opcode   : out std_logic_vector(5 downto 0);
     rs, rt, rd, shamt   : out std_logic_vector(4 downto 0);
     funct   : out std_logic_vector(5 downto 0);
