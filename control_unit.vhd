@@ -5,8 +5,9 @@ use work.eecs361.all;
 
 entity control_unit is
   port (
-       -- stuff
-         );
+       instruction  : in  std_logic_vector(31 downto 26);
+       
+        );
 end control_unit;
 
 architecture structural of control_unit is
