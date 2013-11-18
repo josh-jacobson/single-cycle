@@ -40,7 +40,7 @@ architecture structural of pc_counter is
  
  begin
  
- adder : rippleadder32 port map (x => dc, y=> "00000000000000000000000000000100", z => add_out, c=> null_1, cout => null_2);
- pcreg : a32bitreg port map (d => add_out, arst => reset, enable => '1', aload => add_out, q=> pcc, clk => clk);
+ -- adder : rippleadder32 port map (x => dc, y=> "00000000000000000000000000000100", z => add_out, c=> null_1, cout => null_2);
+ pcreg : a32bitreg port map (d => dc, arst => reset, enable => '1', aload => "00000000000000000000000000000000", q=> pcc, clk => clk);
   
 end architecture structural;
