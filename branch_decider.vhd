@@ -6,7 +6,6 @@ use work.eecs361.all;
 -- This is a simple entity to decide whether to feed the branch address into the PC based on the bnq and branch signals, along with the ALU zero flag.
 
 entity branch_decider is
-   generic ( mem_file : string );
    port (
     zero_flag, bnq, branch : in  std_logic;
     PCSrc : out std_logic

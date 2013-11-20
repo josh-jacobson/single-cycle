@@ -82,6 +82,12 @@ architecture structural of processor is
           z   : out std_logic_vector(31 downto 0)
         );
     end component sign_extender;
+    component branch_decider is
+       port (
+          zero_flag, bnq, branch : in  std_logic;
+          PCSrc : out std_logic
+       );
+    end component branch_decider;
   
   begin
   
