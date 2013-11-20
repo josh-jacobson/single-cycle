@@ -32,12 +32,13 @@ signal treset : std_logic;
 signal twe : std_logic;
 begin
    regfile_map : register_component port map (busw => tbusw, reset => treset, rd => trd, rs => trs, rt => trt, busa => za, busb => zb, clk => tclk, we => twe);
-  test_proc : process
+  
+test_proc : process
   begin
-    trd <= "00101";
-    trs <= "00011";
+    trd <= "11111";
+    trs <= "11111";
     trt <= "00101";
-    tbusw <= "11000000000000000000000000000100";
+    tbusw <= "11011000000000000000000000000100";
     tclk <= '0';
     treset <= '1';
     twe <= '0';

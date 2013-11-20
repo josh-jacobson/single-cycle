@@ -24,23 +24,13 @@ architecture structural of pc_counter is
   );
  end component a32bitreg;
 
- component rippleadder32 is
-  port (
-    x       : in  std_logic_vector(31 downto 0);
-    y       : in  std_logic_vector(31 downto 0);
-    c       : in  std_logic;
-    z       : out std_logic_vector(31 downto 0);
-    cout    : out std_logic
-  );
- end component rippleadder32;
-
  signal add_out : std_logic_vector(31 downto 0);
  signal null_1 : std_logic;
  signal null_2 : std_logic;
  
  begin
+ add_out <= dc(31 downto 2) & "00";
  
- -- adder : rippleadder32 port map (x => dc, y=> "00000000000000000000000000000100", z => add_out, c=> null_1, cout => null_2);
- pcreg : a32bitreg port map (d => dc, arst => reset, enable => '1', aload => "00000000000000000000000000000000", q=> pcc, clk => clk);
+ pcreg : a32bitreg port map (d => add_out, arst => reset, enable => '1', aload => "00000000000000000000000000000000", q=> pcc, clk => clk);
   
 end architecture structural;
