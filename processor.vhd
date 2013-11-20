@@ -40,6 +40,14 @@ architecture structural of processor is
            inst : out std_logic_vector(31 downto 0)
         );
     end component instruction_memory;
+    component pc_counter is
+        port (
+          pcc       : out  std_logic_vector(31 downto 0);
+          dc       : in  std_logic_vector(31 downto 0);
+          clk       : in  std_logic;
+          reset       : in  std_logic
+        );
+    end component pc_counter;
     component syncram is
      generic (
       	mem_file : string
@@ -61,7 +69,13 @@ architecture structural of processor is
           ALUop : out std_logic_vector(1 downto 0)
         );
     end component control_unit;
-    
+    component alu_control is
+        port (
+          funct  : in  std_logic_vector(5 downto 0);
+          op_code : in  std_logic_vector(1 downto 0);
+          alu_c : out std_logic_vector(2 downto 0)
+        );
+    end component alu_control;
     component sign_extender is
         port (
           x   : in  std_logic_vector(15 downto 0);
