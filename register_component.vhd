@@ -85,22 +85,19 @@ signal rw_mux5 : std_logic_vector(31 downto 0);
 signal write32 : std_logic_vector(31 downto 0);
 signal testout : std_logic_vector(31 downto 0);
 begin
---  regtest_map : a32bitreg port map
- --       (q => testout, d => testin, arst=> reset, clk => clk, aload => "00000000000000000000000000000000", enable => we);
+
   write_map : register_we_gen port map (we => we, sig => rd, z => write32); 
+  regI_map : a32bitreg port map
+        (q => regq(1), d => regd(1), arst=> '1', clk => clk, aload => "00000000000000000000000000000000", enable => '0');
   REG_GEN: 
-   for I in 1 to 32 generate
+   for I in 2 to 32 generate
       regI_map : a32bitreg port map
         (q => regq(I), d => regd(I), arst=> reset, clk => clk, aload => "00000000000000000000000000000000", enable => write32(I-1));
         regd(I) <= busw;
    end generate REG_GEN;
    
-   -- rw_muxmap : a32input_mux port map (r1 => testin, r2 => regd(2), r3 => regd(3), r4 => regd(4), r5 => regd(5), r6 => regd(6), r7 => regd(7), r8 => regd(8), r9 => regd(9), r10 => regd(10), r11 => regd(11), r12 => regd(12), r13 => regd(13), r14 => regd(14), r15 => regd(15), r16 => regd(16), r17 => regd(17), r18 => regd(18), r19 => regd(19), r20 => regd(20), r21 => regd(21), r22 => regd(22), r23 => regd(23), r24 => regd(24), r25 => regd(25), r26 => regd(26), r27 => regd(27), r28 => regd(28), r29 => regd(29), r30 => regd(30), r31 => regd(31), r32 => regd(32), sig => rd, z => rw_mux5); 
-   -- rw_mux5 <= busw;
    ra_muxmap : a32input_mux port map (r1 => regq(1), r2 => regq(2), r3 => regq(3), r4 => regq(4), r5 => regq(5), r6 => regq(6), r7 => regq(7), r8 => regq(8), r9 => regq(9), r10 => regq(10), r11 => regq(11), r12 => regq(12), r13 => regq(13), r14 => regq(14), r15 => regq(15), r16 => regq(16), r17 => regq(17), r18 => regq(18), r19 => regq(19), r20 => regq(20), r21 => regq(21), r22 => regq(22), r23 => regq(23), r24 => regq(24), r25 => regq(25), r26 => regq(26), r27 => regq(27), r28 => regq(28), r29 => regq(29), r30 => regq(30), r31 => regq(31), r32 => regq(32), sig => rs, z => busa); 
-
    rb_muxmap : a32input_mux port map (r1 => regq(1), r2 => regq(2), r3 => regq(3), r4 => regq(4), r5 => regq(5), r6 => regq(6), r7 => regq(7), r8 => regq(8), r9 => regq(9), r10 => regq(10), r11 => regq(11), r12 => regq(12), r13 => regq(13), r14 => regq(14), r15 => regq(15), r16 => regq(16), r17 => regq(17), r18 => regq(18), r19 => regq(19), r20 => regq(20), r21 => regq(21), r22 => regq(22), r23 => regq(23), r24 => regq(24), r25 => regq(25), r26 => regq(26), r27 => regq(27), r28 => regq(28), r29 => regq(29), r30 => regq(30), r31 => regq(31), r32 => regq(32), sig => rt, z => busb); 
-      
   
 end architecture structural;
 

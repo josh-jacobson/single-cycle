@@ -30,8 +30,8 @@ signal yin : std_logic_vector(31 downto 0);
 signal cin : std_logic;
 signal reset : std_logic;
 begin
-   --fulladder_map : pc_counter port map (dc => yin, clk => cin, reset => reset, pcc => z);
-  fulladder_map : a32bitreg port map (d => yin, aload => "00000000000000000000000000000000", enable=> '1', clk => cin, arst => reset, q => z);
+   fulladder_map : pc_counter port map (dc => yin, clk => cin, reset => reset, pcc => z);
+  --fulladder_map : a32bitreg port map (d => yin, aload => "00000000000000000000000000000000", enable=> '1', clk => cin, arst => reset, q => z);
   test_proc : process
   begin
     yin <= "00000000000000000000000000000000";
@@ -53,7 +53,7 @@ begin
     wait for 1 ns;
     wait for 5 ns;
 
-    yin <= "01110111011101110111011101110111";
+    yin <= "01110111011101000111011101110111";
     cin <= '1';
     wait for 1 ns;
     cin <= '0';
