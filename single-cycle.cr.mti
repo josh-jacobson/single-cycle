@@ -1,4 +1,13 @@
-/home/sbb819/single-cycle/lib/xor_gate_32.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/xor_gate_32.vhd
+/home/sbb819/single-cycle/or_3.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/or_3.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity or_3
+-- Compiling architecture dataflow of or_3
+
+} {} {}} /home/sbb819/single-cycle/lib/xor_gate_32.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/xor_gate_32.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package standard
 -- Loading package std_logic_1164
@@ -74,7 +83,7 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package eecs361_gates
 -- Loading package eecs361
 -- Compiling entity or_6
--- Compiling architecture dataflow of or_6
+-- Compiling architecture structural of or_6
 
 } {} {}} /home/sbb819/single-cycle/lib/fulladder_n.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/fulladder_n.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
@@ -106,12 +115,15 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Compiling entity or_gate
 -- Compiling architecture dataflow of or_gate
 
-} {} {}} /home/sbb819/single-cycle/lib/eecs361.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/eecs361.vhd
+} {} {}} /home/sbb819/single-cycle/readsram.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/readsram.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package standard
 -- Loading package std_logic_1164
+-- Loading package numeric_std
 -- Loading package eecs361_gates
--- Compiling package eecs361
+-- Loading package eecs361
+-- Compiling entity sram_demo
+-- Compiling architecture structural of sram_demo
 
 } {} {}} /home/sbb819/single-cycle/lib/dffr.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/dffr.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
@@ -119,6 +131,13 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package std_logic_1164
 -- Compiling entity dffr
 -- Compiling architecture behavioral of dffr
+
+} {} {}} /home/sbb819/single-cycle/lib/eecs361.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/eecs361.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Compiling package eecs361
 
 } {} {}} /home/sbb819/single-cycle/lib/xnor_gate_32.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/xnor_gate_32.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
@@ -153,6 +172,22 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Compiling entity and_gate
 -- Compiling architecture dataflow of and_gate
 
+} {} {}} /home/sbb819/single-cycle/pc_counter.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/pc_counter.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity pc_counter
+-- Compiling architecture structural of pc_counter
+
+} {} {}} /home/sbb819/single-cycle/benches/sign_extender_demo.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/benches/sign_extender_demo.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity sign_extender_demo
+-- Compiling architecture structural of sign_extender_demo
+
 } {} {}} /home/sbb819/single-cycle/lib/not_gate_32.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/not_gate_32.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package standard
@@ -166,6 +201,13 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package std_logic_1164
 -- Compiling entity nand_gate_32
 -- Compiling architecture dataflow of nand_gate_32
+
+} {} {}} /home/sbb819/single-cycle/benches/or_6_test.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/benches/or_6_test.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity or_6_test
+-- Compiling architecture structural of or_6_test
 
 } {} {}} /home/sbb819/single-cycle/lib/xor_gate_n.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/xor_gate_n.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
@@ -201,13 +243,6 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package std_logic_1164
 -- Compiling entity fulladder_32
 -- Compiling architecture behavioral of fulladder_32
-
-} {} {}} /home/sbb819/single-cycle/6_or.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/6_or.vhd
-Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
--- Loading package standard
--- Loading package std_logic_1164
--- Compiling entity or_6
--- Compiling architecture dataflow of or_6
 
 } {} {}} /home/sbb819/single-cycle/lib/and_gate_n.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/and_gate_n.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
@@ -246,14 +281,12 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Compiling entity mux
 -- Compiling architecture structural of mux
 
-} {} {}} /home/sbb819/single-cycle/32bitreg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/32bitreg.vhd
+} {} {}} /home/sbb819/single-cycle/alu_control_test.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/alu_control_test.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package standard
 -- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity a32bitreg
--- Compiling architecture structural of a32bitreg
+-- Compiling entity alu_control_test
+-- Compiling architecture structural of alu_control_test
 
 } {} {}} /home/sbb819/single-cycle/lib/xnor_gate_n.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/xnor_gate_n.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
@@ -268,5 +301,23 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package std_logic_1164
 -- Compiling entity nor_gate_n
 -- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} /home/sbb819/single-cycle/32bitreg.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/32bitreg.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity a32bitreg
+-- Compiling architecture structural of a32bitreg
+
+} {} {}} /home/sbb819/single-cycle/alu_control.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/alu_control.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package eecs361_gates
+-- Loading package eecs361
+-- Compiling entity alu_control
+-- Compiling architecture structural of alu_control
 
 } {} {}}
