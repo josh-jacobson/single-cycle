@@ -4,9 +4,9 @@ use work.eecs361_gates.all;
 use work.eecs361.all;
 
 entity processor is
+   generic ( mem_file : string );
    port (
-    x   : in  std_logic;
-    z   : out std_logic
+    clk : in  std_logic
   );
 end processor;
 
@@ -33,7 +33,27 @@ architecture structural of processor is
         address : out std_logic_vector(15 downto 0)
       );
     end component instruction_decoder;
-    
+    component instruction_memory is
+       generic ( memfile : string );
+       port (
+           addr : in std_logic_vector(31 downto 0);
+           inst : out std_logic_vector(31 downto 0)
+        );
+    end component instruction_memory;
+    component syncram is
+     generic (
+      	mem_file : string
+     );
+     port (
+       clk   : in  std_logic;
+   	   cs	  : in	std_logic;
+      	oe	  :	in	std_logic;
+      	we	  :	in	std_logic;
+      	addr  : in	std_logic_vector(31 downto 0);
+      	din	  :	in	std_logic_vector(31 downto 0);
+      	dout  :	out std_logic_vector(31 downto 0)
+     );
+    end component syncram;
     component control_unit is
         port (
           opcode  :  in  std_logic_vector(5 downto 0);
