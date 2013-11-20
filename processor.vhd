@@ -21,7 +21,7 @@ architecture structural of processor is
     signal address : std_logic_vector(31 downto 0);   -- 32 bit sign-extended full address
         
     -- main control unit signals:
-    signal regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch : std_logic;
+    signal regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch, bnq : std_logic;
     signal ALUop : std_logic_vector(1 downto 0);
     
     component instruction_decoder is
@@ -65,7 +65,7 @@ architecture structural of processor is
     component control_unit is
         port (
           opcode  :  in  std_logic_vector(5 downto 0);
-          regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch : out std_logic;
+          regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch, bnq : out std_logic;
           ALUop : out std_logic_vector(1 downto 0)
         );
     end component control_unit;
@@ -87,7 +87,7 @@ architecture structural of processor is
   
   -- Map components:
   instruction_decoder_map: instruction_decoder port map (instruction, opcode, rs, rt, rd, shamt, funct, address16);
-  control_unit_map : control_unit port map (opcode, regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch, ALUop);
+  control_unit_map : control_unit port map (opcode, regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch, bnq, ALUop);
   sign_extender_map : sign_extender port map (address16, address);
   
   
