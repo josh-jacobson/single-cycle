@@ -34,15 +34,20 @@ begin
    regfile_map : register_component port map (busw => tbusw, reset => treset, rd => trd, rs => trs, rt => trt, busa => za, busb => zb, clk => tclk, we => twe);
   test_proc : process
   begin
-    trd <= "00000";
-    trs <= "00000";
-    trt <= "00000";
+    trd <= "00101";
+    trs <= "00011";
+    trt <= "00101";
     tbusw <= "11000000000000000000000000000100";
     tclk <= '0';
     treset <= '1';
-    twe <= '1';
+    twe <= '0';
     wait for 100 ns;
     treset <= '0';
+    wait for 100 ns;
+    tclk <= '1';
+    wait for 100 ns;
+    twe <= '1';
+    tclk <= '0';
     wait for 100 ns;
     tclk <= '1';
     wait for 100 ns;
