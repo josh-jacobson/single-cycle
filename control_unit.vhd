@@ -29,13 +29,13 @@ r_format_map : not_gate port map (not_r_format, r_format); -- 1 for r-type, 0 ot
 load_store_map : and_gate port map(opcode(0), opcode(1), load_store); -- 1 for load or store, 0 otherwise
 store_map : and_gate port map (load_store, opcode(3), store); -- 1 for store instruction, 0 otherwise
 not_store_map : not_gate port map (store, not_store);
-load_map : and_gate port map (load_store, not_store); -- 1 for load instruction, 0 otherwise
+load_map : and_gate port map (load_store, not_store, load); -- 1 for load instruction, 0 otherwise
 
 -- Assign the final control signals
 RegDst <= r_format;
 ALUSrc <= load_store;
 MemtoReg <= not_r_format;
-RegWrite_map : and_gate port map (r_format, load);
+RegWrite_map : or_gate port map (r_format, load, RegWrite);
 MemRead <= load;
 MemWrite <= store;
 branch <= opcode(2);
