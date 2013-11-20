@@ -6,7 +6,7 @@ use work.eecs361.all;
 entity control_unit is
   port (
        opcode  :  in  std_logic_vector(5 downto 0);
-       regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch : out std_logic;
+       regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch, bnq : out std_logic;
        ALUop : out std_logic_vector(1 downto 0)
         );
 end control_unit;
@@ -39,6 +39,7 @@ RegWrite_map : or_gate port map (r_format, load, RegWrite);
 MemRead <= load;
 MemWrite <= store;
 branch <= opcode(2);
+bnq <= opcode(0); -- bnq = 0 for a beq operation, 1 for a bnq operation
 ALUop(0) <= opcode(2); -- same as branch signal
 ALUop(1) <= r_format;
 
