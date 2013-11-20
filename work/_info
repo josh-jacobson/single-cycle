@@ -4,918 +4,1200 @@ K3
 Z0 cModel Technology
 Z1 d/home/sbb819/MGC/individual
 T_opt
-VjiHYj0;WiZ`0j_d2?:b3Q2
-04 9 10 work or_6_test structural 1
-Z2 =1-180373200c24-52844d7b-265-48a4
-Z3 o-quiet -auto_acc_if_foreign -work work
-Z4 tExplicit 1
-Z5 OL;O;6.3c;37
-Eand_gate
-Z6 w1383420297
-Z7 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-Z8 d/home/sbb819/single-cycle
-Z9 8/home/sbb819/single-cycle/lib/and_gate.vhd
-Z10 F/home/sbb819/single-cycle/lib/and_gate.vhd
-l0
-L5
-Z11 ViD35i4k5;<51ZJNgE_I`?1
-Z12 OL;C;6.3c;37
-32
-Z13 o-work work -2002 -explicit
-R4
-Adataflow
-R7
-Z14 DE work and_gate iD35i4k5;<51ZJNgE_I`?1
-l14
-L13
-Z15 V7Ie:gb<o026L7LOWFa@fQ2
-R12
-32
-Z16 M1 ieee std_logic_1164
-R13
-R4
-Eand_gate_32
+Z2 VG;nTk:QTPic2UShJE6j`21
+Z3 04 9 10 work or_6_test structural 1
+Z4 =1-180373200c24-52895504-afaef-6c8c
+Z5 o-quiet -auto_acc_if_foreign -work work
+Z6 tExplicit 1
+Z7 OL;O;6.3c;37
+T_opt1
+VaSgQdaj=;ok61>nVkhLhe3
+Z8 04 16 10 work alu_control_test structural 1
+Z9 =1-180373200c24-528c2a96-276f7-5d18
+R5
 R6
 R7
-R8
-Z17 8/home/sbb819/single-cycle/lib/and_gate_32.vhd
-Z18 F/home/sbb819/single-cycle/lib/and_gate_32.vhd
-l0
-L5
-Z19 VFczoAX`e79<gCJJa4LDh70
-R12
-32
-R13
-R4
-Adataflow
+T_opt2
+Z10 V2:4B5fNGSV=b7`4hR[NJ_2
+Z11 04 11 10 work alu_control structural 1
+Z12 =1-1803731fd06e-528972b5-d5ad5-565d
+R5
+R6
 R7
-Z20 DE work and_gate_32 FczoAX`e79<gCJJa4LDh70
-l14
-L13
-Z21 V[_QoUaofmi7Za7gOzW8f_3
-R12
+Ea32bitreg
+Z13 w1384401990
+Z14 DP work eecs361 m?o:I9LMaP=92Do1Bb;[T1
+Z15 DP work eecs361_gates jb>Jj^gk2fElzOU49[A@c1
+Z16 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+Z17 d/home/sbb819/single-cycle
+Z18 8/home/sbb819/single-cycle/32bitreg.vhd
+Z19 F/home/sbb819/single-cycle/32bitreg.vhd
+l0
+L6
+Z20 V[06a5noaR@0zK_z^ZSdgn2
+Z21 OL;C;6.3c;37
 32
+Z22 o-work work -2002 -explicit
+R6
+Astructural
+R14
+R15
 R16
-R13
-R4
-Eand_gate_n
+Z23 DE work a32bitreg [06a5noaR@0zK_z^ZSdgn2
+l19
+L17
+Z24 Vk97W<9SSmLU?zjIcH^UJZ3
+R21
+32
+Z25 M3 ieee std_logic_1164
+Z26 M2 work eecs361_gates
+Z27 M1 work eecs361
+R22
 R6
-R7
-R8
-Z22 8/home/sbb819/single-cycle/lib/and_gate_n.vhd
-Z23 F/home/sbb819/single-cycle/lib/and_gate_n.vhd
+Ealu_control
+Z28 w1384741243
+R14
+R15
+R16
+R17
+Z29 8/home/sbb819/single-cycle/alu_control.vhd
+Z30 F/home/sbb819/single-cycle/alu_control.vhd
+l0
+L6
+Z31 Va>9:n=zDZo=d@W3BB^DQf0
+R21
+32
+R22
+R6
+Astructural
+R14
+R15
+R16
+Z32 DE work alu_control a>9:n=zDZo=d@W3BB^DQf0
+l54
+L14
+Z33 VFelnZBRJAY]NR9cg@KN8A1
+R21
+32
+R25
+R26
+R27
+R22
+R6
+Ealu_control_test
+Z34 w1384731180
+R16
+R17
+Z35 8/home/sbb819/single-cycle/alu_control_test.vhd
+Z36 F/home/sbb819/single-cycle/alu_control_test.vhd
+l0
+L4
+Z37 V3`CJaK=6D?4RzknigN?]R2
+R21
+32
+R22
+R6
+Astructural
+R16
+Z38 DE work alu_control_test 3`CJaK=6D?4RzknigN?]R2
+l22
+L10
+Z39 VGJBkEV;YO=[Y^n___?24a1
+R21
+32
+Z40 M1 ieee std_logic_1164
+R22
+R6
+Eand_5
+Z41 w1384729548
+R15
+R16
+R17
+Z42 8/home/sbb819/single-cycle/and_5.vhd
+Z43 F/home/sbb819/single-cycle/and_5.vhd
 l0
 L5
-Z24 V1XjoRBjHE@ET>hR0@P]9^1
-R12
+Z44 VmkMVWFc9A2JzTm>kPgCAM3
+R21
 32
-R13
-R4
+R22
+R6
+Astructural
+R15
+R16
+Z45 DE work and_5 mkMVWFc9A2JzTm>kPgCAM3
+l18
+L12
+Z46 VSQl35a>bnPS;^LIVf>1b_3
+R21
+32
+Z47 M2 ieee std_logic_1164
+Z48 M1 work eecs361_gates
+R22
+R6
+Eand_6
+Z49 w1384740811
+R15
+R16
+R17
+Z50 8/home/sbb819/single-cycle/and_6.vhd
+Z51 F/home/sbb819/single-cycle/and_6.vhd
+l0
+L5
+Z52 VWd^mb<aMgGDG=n1zNP2lJ0
+R21
+32
+R22
+R6
+Astructural
+R15
+R16
+Z53 DE work and_6 Wd^mb<aMgGDG=n1zNP2lJ0
+l19
+L12
+Z54 V<cJX4DMA=`4jY7=Ne`hgG0
+R21
+32
+R47
+R48
+R22
+R6
+Eand_gate
+Z55 w1383420297
+R16
+R17
+Z56 8/home/sbb819/single-cycle/lib/and_gate.vhd
+Z57 F/home/sbb819/single-cycle/lib/and_gate.vhd
+l0
+L5
+Z58 ViD35i4k5;<51ZJNgE_I`?1
+R21
+32
+R22
+R6
 Adataflow
-R7
-Z25 DE work and_gate_n 1XjoRBjHE@ET>hR0@P]9^1
+R16
+Z59 DE work and_gate iD35i4k5;<51ZJNgE_I`?1
+l14
+L13
+Z60 V7Ie:gb<o026L7LOWFa@fQ2
+R21
+32
+R40
+R22
+R6
+Eand_gate_32
+R55
+R16
+R17
+Z61 8/home/sbb819/single-cycle/lib/and_gate_32.vhd
+Z62 F/home/sbb819/single-cycle/lib/and_gate_32.vhd
+l0
+L5
+Z63 VFczoAX`e79<gCJJa4LDh70
+R21
+32
+R22
+R6
+Adataflow
+R16
+Z64 DE work and_gate_32 FczoAX`e79<gCJJa4LDh70
+l14
+L13
+Z65 V[_QoUaofmi7Za7gOzW8f_3
+R21
+32
+R40
+R22
+R6
+Eand_gate_n
+R55
+R16
+R17
+Z66 8/home/sbb819/single-cycle/lib/and_gate_n.vhd
+Z67 F/home/sbb819/single-cycle/lib/and_gate_n.vhd
+l0
+L5
+Z68 V1XjoRBjHE@ET>hR0@P]9^1
+R21
+32
+R22
+R6
+Adataflow
+R16
+Z69 DE work and_gate_n 1XjoRBjHE@ET>hR0@P]9^1
 l17
 L16
-Z26 VKOPPga9^U2LEGMBB_4QJR2
-R12
+Z70 VKOPPga9^U2LEGMBB_4QJR2
+R21
 32
-R16
-R13
-R4
-Edec_n
+R40
+R22
 R6
-Z27 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-R7
-R8
-Z28 8/home/sbb819/single-cycle/lib/dec_n.vhd
-Z29 F/home/sbb819/single-cycle/lib/dec_n.vhd
+Econtrol_unit
+Z71 w1384730197
+R14
+R15
+R16
+R17
+R29
+R30
+l0
+L6
+Z72 VhI>;nUTXSM5>Fz_cfCXWY3
+R21
+32
+R22
+R6
+Astructural
+R14
+R15
+R16
+Z73 DE work control_unit hI>;nUTXSM5>Fz_cfCXWY3
+l53
+L14
+Z74 Vb[8l1gl:75jhZbMPBL<f02
+R21
+32
+R25
+R26
+R27
+R22
+R6
+Edec_n
+R55
+Z75 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+R16
+R17
+Z76 8/home/sbb819/single-cycle/lib/dec_n.vhd
+Z77 F/home/sbb819/single-cycle/lib/dec_n.vhd
 l0
 L5
-Z30 VW81n^B>0EZAUSR3lSH_HI2
-R12
+Z78 VW81n^B>0EZAUSR3lSH_HI2
+R21
 32
-R13
-R4
+R22
+R6
 Abehavioral
-R27
-R7
-Z31 DE work dec_n W81n^B>0EZAUSR3lSH_HI2
+R75
+R16
+Z79 DE work dec_n W81n^B>0EZAUSR3lSH_HI2
 l16
 L15
-Z32 Vi7;z?Xn:oVfLC:FBzAUDg2
-R12
+Z80 Vi7;z?Xn:oVfLC:FBzAUDg2
+R21
 32
-Z33 M2 ieee std_logic_1164
-Z34 M1 ieee numeric_std
-R13
-R4
+R47
+Z81 M1 ieee numeric_std
+R22
+R6
 Edff
-R6
-R7
-R8
-Z35 8/home/sbb819/single-cycle/lib/dff.vhd
-Z36 F/home/sbb819/single-cycle/lib/dff.vhd
+R55
+R16
+R17
+Z82 8/home/sbb819/single-cycle/lib/dff.vhd
+Z83 F/home/sbb819/single-cycle/lib/dff.vhd
 l0
 L4
-Z37 V28WCl`LXJ6<cID_LbAJo<3
-R12
+Z84 V28WCl`LXJ6<cID_LbAJo<3
+R21
 32
-R13
-R4
+R22
+R6
 Abehavioral
-R7
-Z38 DE work dff 28WCl`LXJ6<cID_LbAJo<3
+R16
+Z85 DE work dff 28WCl`LXJ6<cID_LbAJo<3
 l13
 L12
-Z39 VBPd8eX:o4]XI`n6BT]<ZQ2
-R12
+Z86 VBPd8eX:o4]XI`n6BT]<ZQ2
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Edffr
-R6
-R7
-R8
-Z40 8/home/sbb819/single-cycle/lib/dffr.vhd
-Z41 F/home/sbb819/single-cycle/lib/dffr.vhd
+R55
+R16
+R17
+Z87 8/home/sbb819/single-cycle/lib/dffr.vhd
+Z88 F/home/sbb819/single-cycle/lib/dffr.vhd
 l0
 L4
-Z42 VDlSBe>MRYSYBA]_@lfL2S1
-R12
+Z89 VDlSBe>MRYSYBA]_@lfL2S1
+R21
 32
-R13
-R4
+R22
+R6
 Abehavioral
-R7
-Z43 DE work dffr DlSBe>MRYSYBA]_@lfL2S1
+R16
+Z90 DE work dffr DlSBe>MRYSYBA]_@lfL2S1
 l13
 L12
-Z44 V>m^noO]>>AgFBIPb93zgb0
-R12
+Z91 V>m^noO]>>AgFBIPb93zgb0
+R21
 32
-R16
-R13
-R4
-Peecs361
-Z45 DP work eecs361_gates jb>Jj^gk2fElzOU49[A@c1
-R7
+R40
+R22
 R6
-R8
-Z46 8/home/sbb819/single-cycle/lib/eecs361.vhd
-Z47 F/home/sbb819/single-cycle/lib/eecs361.vhd
+Peecs361
+R15
+R16
+Z92 w1384401991
+R17
+Z93 8/home/sbb819/single-cycle/lib/eecs361.vhd
+Z94 F/home/sbb819/single-cycle/lib/eecs361.vhd
 l0
 L8
-Z48 Va1Ub@>3;eEH8WXWM]06:X2
-R12
+Z95 Vm?o:I9LMaP=92Do1Bb;[T1
+R21
 32
-R33
-Z49 M1 work eecs361_gates
-R13
-R4
+R47
+R48
+R22
+R6
 Peecs361_gates
-R7
-R6
-R8
-Z50 8/home/sbb819/single-cycle/lib/eecs361_gates.vhd
-Z51 F/home/sbb819/single-cycle/lib/eecs361_gates.vhd
-l0
-L4
-Z52 Vjb>Jj^gk2fElzOU49[A@c1
-R12
-32
 R16
-R13
-R4
-Efulladder_32
-R6
-R7
-R8
-Z53 8/home/sbb819/single-cycle/lib/fulladder_32.vhd
-Z54 F/home/sbb819/single-cycle/lib/fulladder_32.vhd
+R55
+R17
+Z96 8/home/sbb819/single-cycle/lib/eecs361_gates.vhd
+Z97 F/home/sbb819/single-cycle/lib/eecs361_gates.vhd
 l0
 L4
-Z55 VU5fiFY=emOzakc:n5mPeK0
-R12
+Z98 Vjb>Jj^gk2fElzOU49[A@c1
+R21
 32
-R13
-R4
+R40
+R22
+R6
+Efulladder_32
+R55
+R16
+R17
+Z99 8/home/sbb819/single-cycle/lib/fulladder_32.vhd
+Z100 F/home/sbb819/single-cycle/lib/fulladder_32.vhd
+l0
+L4
+Z101 VU5fiFY=emOzakc:n5mPeK0
+R21
+32
+R22
+R6
 Abehavioral
-R7
-Z56 DE work fulladder_32 U5fiFY=emOzakc:n5mPeK0
+R16
+Z102 DE work fulladder_32 U5fiFY=emOzakc:n5mPeK0
 l27
 L14
-Z57 V`OTkI[fRWYGNYhV=Em7T>0
-R12
+Z103 V`OTkI[fRWYGNYhV=Em7T>0
+R21
 32
-R16
-R13
-R4
-Efulladder_n
+R40
+R22
 R6
-R27
-R7
-R8
-Z58 8/home/sbb819/single-cycle/lib/fulladder_n.vhd
-Z59 F/home/sbb819/single-cycle/lib/fulladder_n.vhd
+Efulladder_n
+R55
+R75
+R16
+R17
+Z104 8/home/sbb819/single-cycle/lib/fulladder_n.vhd
+Z105 F/home/sbb819/single-cycle/lib/fulladder_n.vhd
 l0
 L5
-Z60 VEI`P:5gkSB>P>6E5gSm2A3
-R12
+Z106 VEI`P:5gkSB>P>6E5gSm2A3
+R21
 32
-R13
-R4
+R22
+R6
 Abehavioral
-R27
-R7
-Z61 DE work fulladder_n EI`P:5gkSB>P>6E5gSm2A3
+R75
+R16
+Z107 DE work fulladder_n EI`P:5gkSB>P>6E5gSm2A3
 l20
 L18
-Z62 VIJ2i[JVc=HQ22=V1F8bHE0
-R12
+Z108 VIJ2i[JVc=HQ22=V1F8bHE0
+R21
 32
-R33
-R34
-R13
-R4
+R47
+R81
+R22
+R6
 Emux
-R6
-R45
-Z63 DP work eecs361 a1Ub@>3;eEH8WXWM]06:X2
-R7
-R8
-Z64 8/home/sbb819/single-cycle/lib/mux.vhd
-Z65 F/home/sbb819/single-cycle/lib/mux.vhd
+R55
+R15
+R14
+R16
+R17
+Z109 8/home/sbb819/single-cycle/lib/mux.vhd
+Z110 F/home/sbb819/single-cycle/lib/mux.vhd
 l0
 L5
-Z66 VH8`C3OODn93bf9eN1]XJB3
-R12
+Z111 VH8`C3OODn93bf9eN1]XJB3
+R21
 32
-R13
-R4
+R22
+R6
 Astructural
-R45
-R63
-R7
-Z67 DE work mux H8`C3OODn93bf9eN1]XJB3
+R15
+R14
+R16
+Z112 DE work mux H8`C3OODn93bf9eN1]XJB3
 l15
 L14
-Z68 V212T8Q6Y1FPn74eTIknzT0
-R12
+Z113 V212T8Q6Y1FPn74eTIknzT0
+R21
 32
-Z69 M3 ieee std_logic_1164
-Z70 M2 work eecs361
-R49
-R13
-R4
+R25
+Z114 M2 work eecs361
+R48
+R22
+R6
 Emux_32
-R6
-R45
-R63
-R7
-R8
-Z71 8/home/sbb819/single-cycle/lib/mux_32.vhd
-Z72 F/home/sbb819/single-cycle/lib/mux_32.vhd
+R55
+R15
+R14
+R16
+R17
+Z115 8/home/sbb819/single-cycle/lib/mux_32.vhd
+Z116 F/home/sbb819/single-cycle/lib/mux_32.vhd
 l0
 L5
-Z73 VjUQ]8^VAGaBITIJ?09mgZ0
-R12
+Z117 VjUQ]8^VAGaBITIJ?09mgZ0
+R21
 32
-R13
-R4
+R22
+R6
 Astructural
-R45
-R63
-R7
-Z74 DE work mux_32 jUQ]8^VAGaBITIJ?09mgZ0
+R15
+R14
+R16
+Z118 DE work mux_32 jUQ]8^VAGaBITIJ?09mgZ0
 l15
 L14
-Z75 VIP8cdkJj]VWG1`6VM@Xk^1
-R12
+Z119 VIP8cdkJj]VWG1`6VM@Xk^1
+R21
 32
-R69
-R70
-R49
-R13
-R4
-Emux_n
+R25
+R114
+R48
+R22
 R6
-R7
-R8
-Z76 8/home/sbb819/single-cycle/lib/mux_n.vhd
-Z77 F/home/sbb819/single-cycle/lib/mux_n.vhd
+Emux_n
+R55
+R16
+R17
+Z120 8/home/sbb819/single-cycle/lib/mux_n.vhd
+Z121 F/home/sbb819/single-cycle/lib/mux_n.vhd
 l0
 L4
-Z78 VAP3TUN0AgIHIkSP1g9I2h2
-R12
+Z122 VAP3TUN0AgIHIkSP1g9I2h2
+R21
 32
-R13
-R4
+R22
+R6
 Abehavioral
-R7
-Z79 DE work mux_n AP3TUN0AgIHIkSP1g9I2h2
+R16
+Z123 DE work mux_n AP3TUN0AgIHIkSP1g9I2h2
 l17
 L16
-Z80 VHe_`dTiLFkI]W1:f<mA8]1
-R12
+Z124 VHe_`dTiLFkI]W1:f<mA8]1
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enand_gate
-R6
-R7
-R8
-Z81 8/home/sbb819/single-cycle/lib/nand_gate.vhd
-Z82 F/home/sbb819/single-cycle/lib/nand_gate.vhd
+R55
+R16
+R17
+Z125 8/home/sbb819/single-cycle/lib/nand_gate.vhd
+Z126 F/home/sbb819/single-cycle/lib/nand_gate.vhd
 l0
 L5
-Z83 Ve3e2@JdTh<J`noVQnnJ@>0
-R12
+Z127 Ve3e2@JdTh<J`noVQnnJ@>0
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z84 DE work nand_gate e3e2@JdTh<J`noVQnnJ@>0
+R16
+Z128 DE work nand_gate e3e2@JdTh<J`noVQnnJ@>0
 l14
 L13
-Z85 VOo9O9VIM]EELEhRlg;3ci1
-R12
+Z129 VOo9O9VIM]EELEhRlg;3ci1
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enand_gate_32
-R6
-R7
-R8
-Z86 8/home/sbb819/single-cycle/lib/nand_gate_32.vhd
-Z87 F/home/sbb819/single-cycle/lib/nand_gate_32.vhd
+R55
+R16
+R17
+Z130 8/home/sbb819/single-cycle/lib/nand_gate_32.vhd
+Z131 F/home/sbb819/single-cycle/lib/nand_gate_32.vhd
 l0
 L5
-Z88 V7Mkf65>_JL>B=JfiR<KU20
-R12
+Z132 V7Mkf65>_JL>B=JfiR<KU20
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z89 DE work nand_gate_32 7Mkf65>_JL>B=JfiR<KU20
+R16
+Z133 DE work nand_gate_32 7Mkf65>_JL>B=JfiR<KU20
 l14
 L13
-Z90 V:in@:;1K^ClbegAC^2JQZ3
-R12
+Z134 V:in@:;1K^ClbegAC^2JQZ3
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enand_gate_n
-R6
-R7
-R8
-Z91 8/home/sbb819/single-cycle/lib/nand_gate_n.vhd
-Z92 F/home/sbb819/single-cycle/lib/nand_gate_n.vhd
+R55
+R16
+R17
+Z135 8/home/sbb819/single-cycle/lib/nand_gate_n.vhd
+Z136 F/home/sbb819/single-cycle/lib/nand_gate_n.vhd
 l0
 L5
-Z93 V@K[DNZGGXo]GX;VkAn@2K2
-R12
+Z137 V@K[DNZGGXo]GX;VkAn@2K2
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z94 DE work nand_gate_n @K[DNZGGXo]GX;VkAn@2K2
+R16
+Z138 DE work nand_gate_n @K[DNZGGXo]GX;VkAn@2K2
 l17
 L16
-Z95 VmY7=e>9IDNeY2Ti>dBgzF3
-R12
+Z139 VmY7=e>9IDNeY2Ti>dBgzF3
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enor_gate
+R55
+R16
+R17
+Z140 8/home/sbb819/single-cycle/lib/nor_gate.vhd
+Z141 F/home/sbb819/single-cycle/lib/nor_gate.vhd
+l0
+L5
+Z142 V0Z9Y7ez]JMl814lR?Yn2B2
+R21
+32
+R22
 R6
-R7
-R8
-Z96 8/home/sbb819/single-cycle/lib/nor_gate.vhd
-Z97 F/home/sbb819/single-cycle/lib/nor_gate.vhd
-l0
-L5
-Z98 V0Z9Y7ez]JMl814lR?Yn2B2
-R12
-32
-R13
-R4
 Adataflow
-R7
-Z99 DE work nor_gate 0Z9Y7ez]JMl814lR?Yn2B2
+R16
+Z143 DE work nor_gate 0Z9Y7ez]JMl814lR?Yn2B2
 l14
 L13
-Z100 V1@WZWgBLHQB[6VPdSok4U3
-R12
+Z144 V1@WZWgBLHQB[6VPdSok4U3
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enor_gate_32
-Z101 w1383420298
-R7
-R8
-Z102 8/home/sbb819/single-cycle/lib/nor_gate_32.vhd
-Z103 F/home/sbb819/single-cycle/lib/nor_gate_32.vhd
+Z145 w1383420298
+R16
+R17
+Z146 8/home/sbb819/single-cycle/lib/nor_gate_32.vhd
+Z147 F/home/sbb819/single-cycle/lib/nor_gate_32.vhd
 l0
 L5
-Z104 Vbl:knAzWoo_aMmj8M[0Jj3
-R12
+Z148 Vbl:knAzWoo_aMmj8M[0Jj3
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z105 DE work nor_gate_32 bl:knAzWoo_aMmj8M[0Jj3
+R16
+Z149 DE work nor_gate_32 bl:knAzWoo_aMmj8M[0Jj3
 l14
 L13
-Z106 VK[cEIO0ARcoJ>g<gaM04o2
-R12
+Z150 VK[cEIO0ARcoJ>g<gaM04o2
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enor_gate_n
-R101
-R7
-R8
-Z107 8/home/sbb819/single-cycle/lib/nor_gate_n.vhd
-Z108 F/home/sbb819/single-cycle/lib/nor_gate_n.vhd
+R145
+R16
+R17
+Z151 8/home/sbb819/single-cycle/lib/nor_gate_n.vhd
+Z152 F/home/sbb819/single-cycle/lib/nor_gate_n.vhd
 l0
 L5
-Z109 V:k0ZH6hX:W?8RHjI0o7;B3
-R12
+Z153 V:k0ZH6hX:W?8RHjI0o7;B3
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z110 DE work nor_gate_n :k0ZH6hX:W?8RHjI0o7;B3
+R16
+Z154 DE work nor_gate_n :k0ZH6hX:W?8RHjI0o7;B3
 l17
 L16
-Z111 V9jT?68WO^=3XC=D=SMTPS2
-R12
+Z155 V9jT?68WO^=3XC=D=SMTPS2
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enot_gate
-R101
-R7
-R8
-Z112 8/home/sbb819/single-cycle/lib/not_gate.vhd
-Z113 F/home/sbb819/single-cycle/lib/not_gate.vhd
+R145
+R16
+R17
+Z156 8/home/sbb819/single-cycle/lib/not_gate.vhd
+Z157 F/home/sbb819/single-cycle/lib/not_gate.vhd
 l0
 L5
-Z114 VXP@^J<e?l]CcJlKO@b[V?0
-R12
+Z158 VXP@^J<e?l]CcJlKO@b[V?0
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z115 DE work not_gate XP@^J<e?l]CcJlKO@b[V?0
+R16
+Z159 DE work not_gate XP@^J<e?l]CcJlKO@b[V?0
 l13
 L12
-Z116 V<k1;LQEQzF8B7:RRi7Mde1
-R12
+Z160 V<k1;LQEQzF8B7:RRi7Mde1
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enot_gate_32
-R101
-R7
-R8
-Z117 8/home/sbb819/single-cycle/lib/not_gate_32.vhd
-Z118 F/home/sbb819/single-cycle/lib/not_gate_32.vhd
+R145
+R16
+R17
+Z161 8/home/sbb819/single-cycle/lib/not_gate_32.vhd
+Z162 F/home/sbb819/single-cycle/lib/not_gate_32.vhd
 l0
 L5
-Z119 VcC6XclZOO=K4MHiG:8Ma?3
-R12
+Z163 VcC6XclZOO=K4MHiG:8Ma?3
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z120 DE work not_gate_32 cC6XclZOO=K4MHiG:8Ma?3
+R16
+Z164 DE work not_gate_32 cC6XclZOO=K4MHiG:8Ma?3
 l13
 L12
-Z121 VL;<X?Q5>UWM;4L^2?L8;J1
-R12
+Z165 VL;<X?Q5>UWM;4L^2?L8;J1
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Enot_gate_n
-R101
-R7
-R8
-Z122 8/home/sbb819/single-cycle/lib/not_gate_n.vhd
-Z123 F/home/sbb819/single-cycle/lib/not_gate_n.vhd
+R145
+R16
+R17
+Z166 8/home/sbb819/single-cycle/lib/not_gate_n.vhd
+Z167 F/home/sbb819/single-cycle/lib/not_gate_n.vhd
 l0
 L5
-Z124 V;W<BHGSET;;Wbz>nW_AE21
-R12
+Z168 V;W<BHGSET;;Wbz>nW_AE21
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z125 DE work not_gate_n ;W<BHGSET;;Wbz>nW_AE21
+R16
+Z169 DE work not_gate_n ;W<BHGSET;;Wbz>nW_AE21
 l16
 L15
-Z126 VZagUI6;4O0Q8W`WI0RXP20
-R12
+Z170 VZagUI6;4O0Q8W`WI0RXP20
+R21
 32
+R40
+R22
+R6
+Eor_3
+Z171 w1384729201
+R14
+R15
 R16
-R13
-R4
-Eor_6
-Z127 w1384401100
-R63
-R45
-R7
-R8
-Z128 8/home/sbb819/single-cycle/or_6.vhd
-Z129 F/home/sbb819/single-cycle/or_6.vhd
+R17
+Z172 8/home/sbb819/single-cycle/or_3.vhd
+Z173 F/home/sbb819/single-cycle/or_3.vhd
 l0
 L6
-Z130 VjQ1JDO^d3GLQ^RMlO;W4n1
-R12
+Z174 V0cHKg@=mFh:bh=7[mkF;_3
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R63
-R45
-R7
-Z131 DE work or_6 jQ1JDO^d3GLQ^RMlO;W4n1
+R14
+R15
+R16
+Z175 DE work or_3 0cHKg@=mFh:bh=7[mkF;_3
+l15
+L13
+Z176 VBzW_:HUTkZG]DX5zi:K@a0
+R21
+32
+R25
+R26
+R27
+R22
+R6
+Eor_6
+Z177 w1384728553
+R14
+R15
+R16
+R17
+Z178 8/home/sbb819/single-cycle/or_6.vhd
+Z179 F/home/sbb819/single-cycle/or_6.vhd
+l0
+L6
+Z180 VjQ1JDO^d3GLQ^RMlO;W4n1
+R21
+32
+R22
+R6
+Astructural
+R14
+R15
+R16
+Z181 DE work or_6 jQ1JDO^d3GLQ^RMlO;W4n1
 l16
 L13
-Z132 VRI3zdB=g^`:P5oR5;BQEC2
-R12
+Z182 VZ4KV<Zj^k8SJY6F63b:5]1
+R21
 32
-R69
-Z133 M2 work eecs361_gates
-Z134 M1 work eecs361
-R13
-R4
+R25
+R26
+R27
+R22
+R6
+Adataflow
+Z183 DP work eecs361 a1Ub@>3;eEH8WXWM]06:X2
+R15
+R16
+R181
+l16
+L13
+Z184 VRI3zdB=g^`:P5oR5;BQEC2
+R21
+32
+R25
+R26
+R27
+R22
+R6
+Z185 w1384401100
 Eor_6_test
-Z135 w1384401434
-R7
-R8
-Z136 8/home/sbb819/single-cycle/benches/or_6_test.vhd
-Z137 F/home/sbb819/single-cycle/benches/or_6_test.vhd
+Z186 w1384401434
+R16
+R17
+Z187 8/home/sbb819/single-cycle/benches/or_6_test.vhd
+Z188 F/home/sbb819/single-cycle/benches/or_6_test.vhd
 l0
 L4
-Z138 V^h`X;1:=kkJ]69Nb?F:1e1
-R12
+Z189 V^h`X;1:=kkJ]69Nb?F:1e1
+R21
 32
-R13
-R4
+R22
+R6
 Astructural
-R7
-Z139 DE work or_6_test ^h`X;1:=kkJ]69Nb?F:1e1
+R16
+Z190 DE work or_6_test ^h`X;1:=kkJ]69Nb?F:1e1
 l21
 L10
-Z140 VbbHM=jRNaQh8ld@2icWGe1
-R12
+Z191 VbbHM=jRNaQh8ld@2icWGe1
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Eor_gate
-R101
-R7
-R8
-Z141 8/home/sbb819/single-cycle/lib/or_gate.vhd
-Z142 F/home/sbb819/single-cycle/lib/or_gate.vhd
+R145
+R16
+R17
+Z192 8/home/sbb819/single-cycle/lib/or_gate.vhd
+Z193 F/home/sbb819/single-cycle/lib/or_gate.vhd
 l0
 L5
-Z143 VPobQeTH]Bgm3H`aI8;k>31
-R12
+Z194 VPobQeTH]Bgm3H`aI8;k>31
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z144 DE work or_gate PobQeTH]Bgm3H`aI8;k>31
+R16
+Z195 DE work or_gate PobQeTH]Bgm3H`aI8;k>31
 l14
 L13
-Z145 V:T1M><UC2A[fd__0Z3V321
-R12
+Z196 V:T1M><UC2A[fd__0Z3V321
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Eor_gate_32
-R101
-R7
-R8
-Z146 8/home/sbb819/single-cycle/lib/or_gate_32.vhd
-Z147 F/home/sbb819/single-cycle/lib/or_gate_32.vhd
+R145
+R16
+R17
+Z197 8/home/sbb819/single-cycle/lib/or_gate_32.vhd
+Z198 F/home/sbb819/single-cycle/lib/or_gate_32.vhd
 l0
 L5
-Z148 VH7CDAnY5XCR^8?WZYlO9S3
-R12
+Z199 VH7CDAnY5XCR^8?WZYlO9S3
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z149 DE work or_gate_32 H7CDAnY5XCR^8?WZYlO9S3
+R16
+Z200 DE work or_gate_32 H7CDAnY5XCR^8?WZYlO9S3
 l14
 L13
-Z150 V=;K87[]nQK7VVOfa414za0
-R12
+Z201 V=;K87[]nQK7VVOfa414za0
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Eor_gate_n
-R101
-R7
-R8
-Z151 8/home/sbb819/single-cycle/lib/or_gate_n.vhd
-Z152 F/home/sbb819/single-cycle/lib/or_gate_n.vhd
+R145
+R16
+R17
+Z202 8/home/sbb819/single-cycle/lib/or_gate_n.vhd
+Z203 F/home/sbb819/single-cycle/lib/or_gate_n.vhd
 l0
 L5
-Z153 VXnPMiQfo2id:2^4:z57Ee1
-R12
+Z204 VXnPMiQfo2id:2^4:z57Ee1
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z154 DE work or_gate_n XnPMiQfo2id:2^4:z57Ee1
+R16
+Z205 DE work or_gate_n XnPMiQfo2id:2^4:z57Ee1
 l17
 L16
-Z155 VG3AN:gb8ESJCPc^@2_@8T2
-R12
+Z206 VG3AN:gb8ESJCPc^@2_@8T2
+R21
 32
+R40
+R22
+R6
+Epc_counter
+R177
+R14
+R15
 R16
-R13
-R4
-Esram
-R101
-R27
-Z156 DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
-Z157 DP std textio K]Z^fghZ6B=BjnK5NomDT3
-Z158 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
-Z159 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
-R7
-R8
-Z160 8/home/sbb819/single-cycle/lib/sram.vhd
-Z161 F/home/sbb819/single-cycle/lib/sram.vhd
-l0
-L12
-Z162 VD[K6nRz3ncm10jT>?DOML3
-R12
-32
-R13
-R4
-Abehavioral
-R27
-R156
-R157
-R158
-R159
-R7
-Z163 DE work sram D[K6nRz3ncm10jT>?DOML3
-l27
-L26
-Z164 Vm;b;[MPebHhV<6D3GM:dB1
-R12
-32
-Z165 M6 ieee std_logic_1164
-Z166 M5 ieee std_logic_unsigned
-Z167 M4 ieee std_logic_arith
-Z168 M3 std textio
-Z169 M2 ieee std_logic_textio
-R34
-R13
-R4
-Esram_demo
-Z170 w1384022247
-R63
-R45
-R27
-R7
-R8
-Z171 8/home/sbb819/single-cycle/readsram.vhd
-Z172 F/home/sbb819/single-cycle/readsram.vhd
+R17
+Z207 8/home/sbb819/single-cycle/pc_counter.vhd
+Z208 F/home/sbb819/single-cycle/pc_counter.vhd
 l0
 L6
-Z173 VZ5N?0lekla?W0em9D>nWT0
-R12
+Z209 VIJn8fN6AUG;V;V[3Z5WC`3
+R21
 32
-R13
-R4
+R22
+R6
 Astructural
-R63
-R45
-R27
-R7
-Z174 DE work sram_demo Z5N?0lekla?W0em9D>nWT0
-l18
-L11
-Z175 VnWGY9MRi^HY]UCfT=k0nQ1
-R12
+R14
+R15
+R16
+Z210 DE work pc_counter IJn8fN6AUG;V;V[3Z5WC`3
+l41
+L15
+Z211 V][db;nNYjObfEdFFL`TMo2
+R21
 32
-Z176 M4 ieee std_logic_1164
-Z177 M3 ieee numeric_std
-R133
-R134
-R13
-R4
-Esyncram
-R101
+R25
+R26
 R27
-R156
-R157
-R158
-R159
-R7
-R8
-Z178 8/home/sbb819/single-cycle/lib/syncram.vhd
-Z179 F/home/sbb819/single-cycle/lib/syncram.vhd
+R22
+R6
+Esign_extender_demo
+R92
+R16
+R17
+Z212 8/home/sbb819/single-cycle/benches/sign_extender_demo.vhd
+Z213 F/home/sbb819/single-cycle/benches/sign_extender_demo.vhd
+l0
+L4
+Z214 VAVQ7nFif7jL0TgF<Y9STY2
+R21
+32
+R22
+R6
+Astructural
+R16
+Z215 DE work sign_extender_demo AVQ7nFif7jL0TgF<Y9STY2
+l21
+L10
+Z216 VHz<IM_gXZ_6]2HhYmd_3=1
+R21
+32
+R40
+R22
+R6
+Esram
+R145
+R75
+Z217 DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+Z218 DP std textio K]Z^fghZ6B=BjnK5NomDT3
+Z219 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z220 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+R16
+R17
+Z221 8/home/sbb819/single-cycle/lib/sram.vhd
+Z222 F/home/sbb819/single-cycle/lib/sram.vhd
 l0
 L12
-Z180 V]e:Y?obJ[4M8b[19LA@K03
-R12
+Z223 VD[K6nRz3ncm10jT>?DOML3
+R21
 32
-R13
-R4
+R22
+R6
 Abehavioral
+R75
+R217
+R218
+R219
+R220
+R16
+Z224 DE work sram D[K6nRz3ncm10jT>?DOML3
+l27
+L26
+Z225 Vm;b;[MPebHhV<6D3GM:dB1
+R21
+32
+Z226 M6 ieee std_logic_1164
+Z227 M5 ieee std_logic_unsigned
+Z228 M4 ieee std_logic_arith
+Z229 M3 std textio
+Z230 M2 ieee std_logic_textio
+R81
+R22
+R6
+Esram_demo
+Z231 w1384401992
+R14
+R15
+R75
+R16
+R17
+Z232 8/home/sbb819/single-cycle/readsram.vhd
+Z233 F/home/sbb819/single-cycle/readsram.vhd
+l0
+L6
+Z234 VZ5N?0lekla?W0em9D>nWT0
+R21
+32
+R22
+R6
+Astructural
+R14
+R15
+R75
+R16
+Z235 DE work sram_demo Z5N?0lekla?W0em9D>nWT0
+l18
+L11
+Z236 VnWGY9MRi^HY]UCfT=k0nQ1
+R21
+32
+Z237 M4 ieee std_logic_1164
+Z238 M3 ieee numeric_std
+R26
 R27
-R156
-R157
-R158
-R159
-R7
-Z181 DE work syncram ]e:Y?obJ[4M8b[19LA@K03
+R22
+R6
+Esyncram
+R145
+R75
+R217
+R218
+R219
+R220
+R16
+R17
+Z239 8/home/sbb819/single-cycle/lib/syncram.vhd
+Z240 F/home/sbb819/single-cycle/lib/syncram.vhd
+l0
+L12
+Z241 V]e:Y?obJ[4M8b[19LA@K03
+R21
+32
+R22
+R6
+Abehavioral
+R75
+R217
+R218
+R219
+R220
+R16
+Z242 DE work syncram ]e:Y?obJ[4M8b[19LA@K03
 l28
 L27
-Z182 VTbiEHF5k9SX[KFh3dAhke3
-R12
+Z243 VTbiEHF5k9SX[KFh3dAhke3
+R21
 32
-R165
-R166
-R167
-R168
-R169
-R34
-R13
-R4
+R226
+R227
+R228
+R229
+R230
+R81
+R22
+R6
 Exnor_gate
-R101
-R7
-R8
-Z183 8/home/sbb819/single-cycle/lib/xnor_gate.vhd
-Z184 F/home/sbb819/single-cycle/lib/xnor_gate.vhd
+R145
+R16
+R17
+Z244 8/home/sbb819/single-cycle/lib/xnor_gate.vhd
+Z245 F/home/sbb819/single-cycle/lib/xnor_gate.vhd
 l0
 L5
-Z185 V0jC_AEbQ?fX[VC;d9f=SZ0
-R12
+Z246 V0jC_AEbQ?fX[VC;d9f=SZ0
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z186 DE work xnor_gate 0jC_AEbQ?fX[VC;d9f=SZ0
+R16
+Z247 DE work xnor_gate 0jC_AEbQ?fX[VC;d9f=SZ0
 l14
 L13
-Z187 V][HPFQ:M`=3IFhOU=XVYJ0
-R12
+Z248 V][HPFQ:M`=3IFhOU=XVYJ0
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Exnor_gate_32
-R101
-R7
-R8
-Z188 8/home/sbb819/single-cycle/lib/xnor_gate_32.vhd
-Z189 F/home/sbb819/single-cycle/lib/xnor_gate_32.vhd
+R145
+R16
+R17
+Z249 8/home/sbb819/single-cycle/lib/xnor_gate_32.vhd
+Z250 F/home/sbb819/single-cycle/lib/xnor_gate_32.vhd
 l0
 L5
-Z190 VRBRJkD;GmzZ;KGbV>TfCE0
-R12
+Z251 VRBRJkD;GmzZ;KGbV>TfCE0
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z191 DE work xnor_gate_32 RBRJkD;GmzZ;KGbV>TfCE0
+R16
+Z252 DE work xnor_gate_32 RBRJkD;GmzZ;KGbV>TfCE0
 l14
 L13
-Z192 VchlkO?g<:;C7BR0hd]5FV0
-R12
+Z253 VchlkO?g<:;C7BR0hd]5FV0
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Exnor_gate_n
-R101
-R7
-R8
-Z193 8/home/sbb819/single-cycle/lib/xnor_gate_n.vhd
-Z194 F/home/sbb819/single-cycle/lib/xnor_gate_n.vhd
+R145
+R16
+R17
+Z254 8/home/sbb819/single-cycle/lib/xnor_gate_n.vhd
+Z255 F/home/sbb819/single-cycle/lib/xnor_gate_n.vhd
 l0
 L5
-Z195 VQ5SkE=YScX<bAnLWRJeLY2
-R12
+Z256 VQ5SkE=YScX<bAnLWRJeLY2
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z196 DE work xnor_gate_n Q5SkE=YScX<bAnLWRJeLY2
+R16
+Z257 DE work xnor_gate_n Q5SkE=YScX<bAnLWRJeLY2
 l17
 L16
-Z197 VLC0RBM2e5O=z4B8[nmYS50
-R12
+Z258 VLC0RBM2e5O=z4B8[nmYS50
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Exor_gate
-R101
-R7
-R8
-Z198 8/home/sbb819/single-cycle/lib/xor_gate.vhd
-Z199 F/home/sbb819/single-cycle/lib/xor_gate.vhd
+R145
+R16
+R17
+Z259 8/home/sbb819/single-cycle/lib/xor_gate.vhd
+Z260 F/home/sbb819/single-cycle/lib/xor_gate.vhd
 l0
 L5
-Z200 VbjSHRh8@2g]F@@2[VWf6l1
-R12
+Z261 VbjSHRh8@2g]F@@2[VWf6l1
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z201 DE work xor_gate bjSHRh8@2g]F@@2[VWf6l1
+R16
+Z262 DE work xor_gate bjSHRh8@2g]F@@2[VWf6l1
 l14
 L13
-Z202 VQF4A7TezMo3;;R6IF:@c?0
-R12
+Z263 VQF4A7TezMo3;;R6IF:@c?0
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Exor_gate_32
-R101
-R7
-R8
-Z203 8/home/sbb819/single-cycle/lib/xor_gate_32.vhd
-Z204 F/home/sbb819/single-cycle/lib/xor_gate_32.vhd
+R145
+R16
+R17
+Z264 8/home/sbb819/single-cycle/lib/xor_gate_32.vhd
+Z265 F/home/sbb819/single-cycle/lib/xor_gate_32.vhd
 l0
 L5
-Z205 Vi1l=7]fR<l]0hCK8E^IZW3
-R12
+Z266 Vi1l=7]fR<l]0hCK8E^IZW3
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z206 DE work xor_gate_32 i1l=7]fR<l]0hCK8E^IZW3
+R16
+Z267 DE work xor_gate_32 i1l=7]fR<l]0hCK8E^IZW3
 l14
 L13
-Z207 VlQDA]gCWf5zNUcF>DSMlC3
-R12
+Z268 VlQDA]gCWf5zNUcF>DSMlC3
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
 Exor_gate_n
-R101
-R7
-R8
-Z208 8/home/sbb819/single-cycle/lib/xor_gate_n.vhd
-Z209 F/home/sbb819/single-cycle/lib/xor_gate_n.vhd
+R145
+R16
+R17
+Z269 8/home/sbb819/single-cycle/lib/xor_gate_n.vhd
+Z270 F/home/sbb819/single-cycle/lib/xor_gate_n.vhd
 l0
 L5
-Z210 VY>2j8ke4[;]oUS6I4Nak60
-R12
+Z271 VY>2j8ke4[;]oUS6I4Nak60
+R21
 32
-R13
-R4
+R22
+R6
 Adataflow
-R7
-Z211 DE work xor_gate_n Y>2j8ke4[;]oUS6I4Nak60
+R16
+Z272 DE work xor_gate_n Y>2j8ke4[;]oUS6I4Nak60
 l17
 L16
-Z212 VY]BUeL=[7e79jmfInCRiH2
-R12
+Z273 VY]BUeL=[7e79jmfInCRiH2
+R21
 32
-R16
-R13
-R4
+R40
+R22
+R6
