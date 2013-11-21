@@ -565,15 +565,6 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Compiling entity processor
 -- Compiling architecture structural of processor
 
-} {} {}} /home/gim871/361ssp/single-cycle/control_unit.vhd {1 {vcom -work work -2002 -explicit -vopt /home/gim871/361ssp/single-cycle/control_unit.vhd
-Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
--- Loading package standard
--- Loading package std_logic_1164
--- Loading package eecs361_gates
--- Loading package eecs361
--- Compiling entity control_unit
--- Compiling architecture structural of control_unit
-
 } {} {}} /home/sbb819/single-cycle/lib/nand_gate_32.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/nand_gate_32.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package standard
@@ -723,6 +714,13 @@ Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
 -- Loading package std_logic_1164
 -- Compiling entity nor_gate_n
 -- Compiling architecture dataflow of nor_gate_n
+
+} {} {}} /home/gim871/361ssp/single-cycle/benches/processor_demo.vhd {1 {vcom -work work -2002 -explicit -vopt /home/gim871/361ssp/single-cycle/benches/processor_demo.vhd
+Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity processor_demo
+-- Compiling architecture structural of processor_demo
 
 } {} {}} /home/sbb819/single-cycle/lib/or_gate.vhd {1 {vcom -work work -2002 -explicit -vopt /home/sbb819/single-cycle/lib/or_gate.vhd
 Model Technology ModelSim SE-64 vcom 6.3c Compiler 2007.09 Sep 11 2007

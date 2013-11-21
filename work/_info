@@ -4,9 +4,9 @@ K3
 Z0 cModel Technology
 Z1 d/home/gim871/361ssp/single-cycle
 T_opt
-V33GlIdo_a^MR3WIY8]T:Y0
+VjR_fRma@hMKKoKPh@lGL]1
 Z2 04 14 10 work processor_demo structural 1
-Z3 =2-1803731fda0b-528e7181-b3ec6-24fe
+Z3 =2-1803731fda0b-528e839c-44804-2aa0
 Z4 o-quiet -auto_acc_if_foreign -work work
 Z5 tExplicit 1
 Z6 OL;O;6.3c;37
@@ -430,15 +430,15 @@ R20
 R15
 R5
 Econtrol_unit
-R7
+Z99 w1385071390
 R8
 R9
 R10
-Z99 8/home/gim871/361ssp/single-cycle/control_unit.vhd
-Z100 F/home/gim871/361ssp/single-cycle/control_unit.vhd
+Z100 8/home/gim871/361ssp/single-cycle/control_unit.vhd
+Z101 F/home/gim871/361ssp/single-cycle/control_unit.vhd
 l0
 L6
-Z101 VI2?6kGTdR>5;dHZoJ[=F?2
+Z102 VI2?6kGTdR>5;dHZoJ[=F?2
 R14
 32
 R15
@@ -447,10 +447,10 @@ Astructural
 R8
 R9
 R10
-Z102 DE work control_unit I2?6kGTdR>5;dHZoJ[=F?2
-l32
-L14
-Z103 VDniF:3mLP[UkDXcVH9KkH0
+Z103 DE work control_unit I2?6kGTdR>5;dHZoJ[=F?2
+l33
+L15
+Z104 VG^nOW28ZQW?A`ob[PaZg@2
 R14
 32
 R18
@@ -461,85 +461,85 @@ R5
 Econtrol_unit_test
 R7
 R10
-Z104 8/home/gim871/361ssp/single-cycle/benches/control_unit_test.vhd
-Z105 F/home/gim871/361ssp/single-cycle/benches/control_unit_test.vhd
+Z105 8/home/gim871/361ssp/single-cycle/benches/control_unit_test.vhd
+Z106 F/home/gim871/361ssp/single-cycle/benches/control_unit_test.vhd
 l0
 L4
-Z106 Vb[WNMlUh9T]l^_WI:k0@P3
+Z107 Vb[WNMlUh9T]l^_WI:k0@P3
 R14
 32
 R15
 R5
 Astructural
 R10
-Z107 DE work control_unit_test b[WNMlUh9T]l^_WI:k0@P3
+Z108 DE work control_unit_test b[WNMlUh9T]l^_WI:k0@P3
 l23
 L11
-Z108 VQ`8;<1m1Ta[SbT:OH0R[e3
+Z109 VQ`8;<1m1Ta[SbT:OH0R[e3
 R14
 32
 R41
 R15
 R5
 Edata_memory
-Z109 w1385058075
+Z110 w1385058075
 R8
 R9
-Z110 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+Z111 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 R10
-Z111 8/home/gim871/361ssp/single-cycle/data_memory.vhd
-Z112 F/home/gim871/361ssp/single-cycle/data_memory.vhd
+Z112 8/home/gim871/361ssp/single-cycle/data_memory.vhd
+Z113 F/home/gim871/361ssp/single-cycle/data_memory.vhd
 l0
 L6
-Z113 VX1;m7c5D21Gj=OSHE[Zeh1
+Z114 VX1;m7c5D21Gj=OSHE[Zeh1
 R14
 32
 R15
 R5
 Edec_n
 R7
-R110
+R111
 R10
-Z114 8/home/gim871/361ssp/single-cycle/lib/dec_n.vhd
-Z115 F/home/gim871/361ssp/single-cycle/lib/dec_n.vhd
+Z115 8/home/gim871/361ssp/single-cycle/lib/dec_n.vhd
+Z116 F/home/gim871/361ssp/single-cycle/lib/dec_n.vhd
 l0
 L5
-Z116 VW81n^B>0EZAUSR3lSH_HI2
+Z117 VW81n^B>0EZAUSR3lSH_HI2
 R14
 32
 R15
 R5
 Abehavioral
-R110
+R111
 R10
-Z117 DE work dec_n W81n^B>0EZAUSR3lSH_HI2
+Z118 DE work dec_n W81n^B>0EZAUSR3lSH_HI2
 l16
 L15
-Z118 Vi7;z?Xn:oVfLC:FBzAUDg2
+Z119 Vi7;z?Xn:oVfLC:FBzAUDg2
 R14
 32
 R67
-Z119 M1 ieee numeric_std
+Z120 M1 ieee numeric_std
 R15
 R5
 Edff
 R7
 R10
-Z120 8/home/gim871/361ssp/single-cycle/lib/dff.vhd
-Z121 F/home/gim871/361ssp/single-cycle/lib/dff.vhd
+Z121 8/home/gim871/361ssp/single-cycle/lib/dff.vhd
+Z122 F/home/gim871/361ssp/single-cycle/lib/dff.vhd
 l0
 L4
-Z122 V28WCl`LXJ6<cID_LbAJo<3
+Z123 V28WCl`LXJ6<cID_LbAJo<3
 R14
 32
 R15
 R5
 Abehavioral
 R10
-Z123 DE work dff 28WCl`LXJ6<cID_LbAJo<3
+Z124 DE work dff 28WCl`LXJ6<cID_LbAJo<3
 l13
 L12
-Z124 VBPd8eX:o4]XI`n6BT]<ZQ2
+Z125 VBPd8eX:o4]XI`n6BT]<ZQ2
 R14
 32
 R41
@@ -548,21 +548,21 @@ R5
 Edffr
 R7
 R10
-Z125 8/home/gim871/361ssp/single-cycle/lib/dffr.vhd
-Z126 F/home/gim871/361ssp/single-cycle/lib/dffr.vhd
+Z126 8/home/gim871/361ssp/single-cycle/lib/dffr.vhd
+Z127 F/home/gim871/361ssp/single-cycle/lib/dffr.vhd
 l0
 L4
-Z127 VDlSBe>MRYSYBA]_@lfL2S1
+Z128 VDlSBe>MRYSYBA]_@lfL2S1
 R14
 32
 R15
 R5
 Abehavioral
 R10
-Z128 DE work dffr DlSBe>MRYSYBA]_@lfL2S1
+Z129 DE work dffr DlSBe>MRYSYBA]_@lfL2S1
 l13
 L12
-Z129 V>m^noO]>>AgFBIPb93zgb0
+Z130 V>m^noO]>>AgFBIPb93zgb0
 R14
 32
 R41
@@ -571,21 +571,21 @@ R5
 Edffr_a
 R7
 R10
-Z130 8/home/gim871/361ssp/single-cycle/lib/dffr_a.vhd
-Z131 F/home/gim871/361ssp/single-cycle/lib/dffr_a.vhd
+Z131 8/home/gim871/361ssp/single-cycle/lib/dffr_a.vhd
+Z132 F/home/gim871/361ssp/single-cycle/lib/dffr_a.vhd
 l0
 L4
-Z132 Vi13=;15DhZHNh2;Cl9VL@3
+Z133 Vi13=;15DhZHNh2;Cl9VL@3
 R14
 32
 R15
 R5
 Abehavioral
 R10
-Z133 DE work dffr_a i13=;15DhZHNh2;Cl9VL@3
+Z134 DE work dffr_a i13=;15DhZHNh2;Cl9VL@3
 l17
 L16
-Z134 VXOCSlO[8BWZ1H[BZAI[CW2
+Z135 VXOCSlO[8BWZ1H[BZAI[CW2
 R14
 32
 R41
@@ -595,11 +595,11 @@ Peecs361
 R9
 R10
 R7
-Z135 8/home/gim871/361ssp/single-cycle/lib/eecs361.vhd
-Z136 F/home/gim871/361ssp/single-cycle/lib/eecs361.vhd
+Z136 8/home/gim871/361ssp/single-cycle/lib/eecs361.vhd
+Z137 F/home/gim871/361ssp/single-cycle/lib/eecs361.vhd
 l0
 L8
-Z137 Vm?o:I9LMaP=92Do1Bb;[T1
+Z138 Vm?o:I9LMaP=92Do1Bb;[T1
 R14
 32
 R67
@@ -609,11 +609,11 @@ R5
 Peecs361_gates
 R10
 R7
-Z138 8/home/gim871/361ssp/single-cycle/lib/eecs361_gates.vhd
-Z139 F/home/gim871/361ssp/single-cycle/lib/eecs361_gates.vhd
+Z139 8/home/gim871/361ssp/single-cycle/lib/eecs361_gates.vhd
+Z140 F/home/gim871/361ssp/single-cycle/lib/eecs361_gates.vhd
 l0
 L4
-Z140 Vjb>Jj^gk2fElzOU49[A@c1
+Z141 Vjb>Jj^gk2fElzOU49[A@c1
 R14
 32
 R41
@@ -623,11 +623,11 @@ Efulladder
 R7
 R9
 R10
-Z141 8/home/gim871/361ssp/single-cycle/alu/fulladder.vhd
-Z142 F/home/gim871/361ssp/single-cycle/alu/fulladder.vhd
+Z142 8/home/gim871/361ssp/single-cycle/alu/fulladder.vhd
+Z143 F/home/gim871/361ssp/single-cycle/alu/fulladder.vhd
 l0
 L5
-Z143 VkMlG@Z[>B:CZ0IVS_klUf2
+Z144 VkMlG@Z[>B:CZ0IVS_klUf2
 R14
 32
 R15
@@ -635,10 +635,10 @@ R5
 Astructural
 R9
 R10
-Z144 DE work fulladder kMlG@Z[>B:CZ0IVS_klUf2
+Z145 DE work fulladder kMlG@Z[>B:CZ0IVS_klUf2
 l19
 L15
-Z145 V>4g0?dYm?e2YUS[M[DXI?0
+Z146 V>4g0?dYm?e2YUS[M[DXI?0
 R14
 32
 R67
@@ -648,21 +648,21 @@ R5
 Efulladder_32
 R7
 R10
-Z146 8/home/gim871/361ssp/single-cycle/lib/fulladder_32.vhd
-Z147 F/home/gim871/361ssp/single-cycle/lib/fulladder_32.vhd
+Z147 8/home/gim871/361ssp/single-cycle/lib/fulladder_32.vhd
+Z148 F/home/gim871/361ssp/single-cycle/lib/fulladder_32.vhd
 l0
 L4
-Z148 VU5fiFY=emOzakc:n5mPeK0
+Z149 VU5fiFY=emOzakc:n5mPeK0
 R14
 32
 R15
 R5
 Abehavioral
 R10
-Z149 DE work fulladder_32 U5fiFY=emOzakc:n5mPeK0
+Z150 DE work fulladder_32 U5fiFY=emOzakc:n5mPeK0
 l27
 L14
-Z150 V`OTkI[fRWYGNYhV=Em7T>0
+Z151 V`OTkI[fRWYGNYhV=Em7T>0
 R14
 32
 R41
@@ -671,21 +671,21 @@ R5
 Efulladder_demo
 R7
 R10
-Z151 8/home/gim871/361ssp/single-cycle/benches/fulladder_demo.vhd
-Z152 F/home/gim871/361ssp/single-cycle/benches/fulladder_demo.vhd
+Z152 8/home/gim871/361ssp/single-cycle/benches/fulladder_demo.vhd
+Z153 F/home/gim871/361ssp/single-cycle/benches/fulladder_demo.vhd
 l0
 L4
-Z153 V;i2JLgDUDT`RBW;KK1<oK1
+Z154 V;i2JLgDUDT`RBW;KK1<oK1
 R14
 32
 R15
 R5
 Astructural
 R10
-Z154 DE work fulladder_demo ;i2JLgDUDT`RBW;KK1<oK1
+Z155 DE work fulladder_demo ;i2JLgDUDT`RBW;KK1<oK1
 l24
 L11
-Z155 V4V7e>HSAAGcimce3^MRRd0
+Z156 V4V7e>HSAAGcimce3^MRRd0
 R14
 32
 R41
@@ -693,39 +693,39 @@ R15
 R5
 Efulladder_n
 R7
-R110
+R111
 R10
-Z156 8/home/gim871/361ssp/single-cycle/lib/fulladder_n.vhd
-Z157 F/home/gim871/361ssp/single-cycle/lib/fulladder_n.vhd
+Z157 8/home/gim871/361ssp/single-cycle/lib/fulladder_n.vhd
+Z158 F/home/gim871/361ssp/single-cycle/lib/fulladder_n.vhd
 l0
 L5
-Z158 VEI`P:5gkSB>P>6E5gSm2A3
+Z159 VEI`P:5gkSB>P>6E5gSm2A3
 R14
 32
 R15
 R5
 Abehavioral
-R110
+R111
 R10
-Z159 DE work fulladder_n EI`P:5gkSB>P>6E5gSm2A3
+Z160 DE work fulladder_n EI`P:5gkSB>P>6E5gSm2A3
 l20
 L18
-Z160 VIJ2i[JVc=HQ22=V1F8bHE0
+Z161 VIJ2i[JVc=HQ22=V1F8bHE0
 R14
 32
 R67
-R119
+R120
 R15
 R5
 Einstruction_decoder
 R7
 R9
 R10
-Z161 8/home/gim871/361ssp/single-cycle/instruction_decoder.vhd
-Z162 F/home/gim871/361ssp/single-cycle/instruction_decoder.vhd
+Z162 8/home/gim871/361ssp/single-cycle/instruction_decoder.vhd
+Z163 F/home/gim871/361ssp/single-cycle/instruction_decoder.vhd
 l0
 L6
-Z163 V;VJ4bj35?<a9WFmQnSYO>0
+Z164 V;VJ4bj35?<a9WFmQnSYO>0
 R14
 32
 R15
@@ -733,10 +733,10 @@ R5
 Astructural
 R9
 R10
-Z164 DE work instruction_decoder ;VJ4bj35?<a9WFmQnSYO>0
+Z165 DE work instruction_decoder ;VJ4bj35?<a9WFmQnSYO>0
 l19
 L17
-Z165 VO:A`Xc1i3]Th>il6RTFEb2
+Z166 VO:A`Xc1i3]Th>il6RTFEb2
 R14
 32
 R67
@@ -746,21 +746,21 @@ R5
 Einstruction_decoder_demo
 R7
 R10
-Z166 8/home/gim871/361ssp/single-cycle/instruction_decoder_test.vhd
-Z167 F/home/gim871/361ssp/single-cycle/instruction_decoder_test.vhd
+Z167 8/home/gim871/361ssp/single-cycle/instruction_decoder_test.vhd
+Z168 F/home/gim871/361ssp/single-cycle/instruction_decoder_test.vhd
 l0
 L4
-Z168 V:LB>`cYiBl_FkJJYSR^6h0
+Z169 V:LB>`cYiBl_FkJJYSR^6h0
 R14
 32
 R15
 R5
 Astructural
 R10
-Z169 DE work instruction_decoder_demo :LB>`cYiBl_FkJJYSR^6h0
+Z170 DE work instruction_decoder_demo :LB>`cYiBl_FkJJYSR^6h0
 l28
 L13
-Z170 Vk5]3:WJ5E5AXM4jz=9Jl=0
+Z171 Vk5]3:WJ5E5AXM4jz=9Jl=0
 R14
 32
 R41
@@ -770,13 +770,13 @@ Einstruction_memory
 R7
 R8
 R9
-R110
+R111
 R10
-Z171 8/home/gim871/361ssp/single-cycle/instruction_memory.vhd
-Z172 F/home/gim871/361ssp/single-cycle/instruction_memory.vhd
+Z172 8/home/gim871/361ssp/single-cycle/instruction_memory.vhd
+Z173 F/home/gim871/361ssp/single-cycle/instruction_memory.vhd
 l0
 L7
-Z173 V_940db2cT8g679O[AekR^2
+Z174 V_940db2cT8g679O[AekR^2
 R14
 32
 R15
@@ -784,16 +784,16 @@ R5
 Astructural
 R8
 R9
-R110
+R111
 R10
-Z174 DE work instruction_memory _940db2cT8g679O[AekR^2
+Z175 DE work instruction_memory _940db2cT8g679O[AekR^2
 l29
 L17
-Z175 VKlJfDfHR>f]_=?X<:fIgW2
+Z176 VKlJfDfHR>f]_=?X<:fIgW2
 R14
 32
-Z176 M4 ieee std_logic_1164
-Z177 M3 ieee numeric_std
+Z177 M4 ieee std_logic_1164
+Z178 M3 ieee numeric_std
 R19
 R20
 R15
@@ -803,11 +803,11 @@ R7
 R9
 R8
 R10
-Z178 8/home/gim871/361ssp/single-cycle/lib/mux.vhd
-Z179 F/home/gim871/361ssp/single-cycle/lib/mux.vhd
+Z179 8/home/gim871/361ssp/single-cycle/lib/mux.vhd
+Z180 F/home/gim871/361ssp/single-cycle/lib/mux.vhd
 l0
 L5
-Z180 VH8`C3OODn93bf9eN1]XJB3
+Z181 VH8`C3OODn93bf9eN1]XJB3
 R14
 32
 R15
@@ -816,14 +816,14 @@ Astructural
 R9
 R8
 R10
-Z181 DE work mux H8`C3OODn93bf9eN1]XJB3
+Z182 DE work mux H8`C3OODn93bf9eN1]XJB3
 l15
 L14
-Z182 V212T8Q6Y1FPn74eTIknzT0
+Z183 V212T8Q6Y1FPn74eTIknzT0
 R14
 32
 R18
-Z183 M2 work eecs361
+Z184 M2 work eecs361
 R68
 R15
 R5
@@ -832,11 +832,11 @@ R7
 R9
 R8
 R10
-Z184 8/home/gim871/361ssp/single-cycle/lib/mux_32.vhd
-Z185 F/home/gim871/361ssp/single-cycle/lib/mux_32.vhd
+Z185 8/home/gim871/361ssp/single-cycle/lib/mux_32.vhd
+Z186 F/home/gim871/361ssp/single-cycle/lib/mux_32.vhd
 l0
 L5
-Z186 VjUQ]8^VAGaBITIJ?09mgZ0
+Z187 VjUQ]8^VAGaBITIJ?09mgZ0
 R14
 32
 R15
@@ -845,35 +845,35 @@ Astructural
 R9
 R8
 R10
-Z187 DE work mux_32 jUQ]8^VAGaBITIJ?09mgZ0
+Z188 DE work mux_32 jUQ]8^VAGaBITIJ?09mgZ0
 l15
 L14
-Z188 VIP8cdkJj]VWG1`6VM@Xk^1
+Z189 VIP8cdkJj]VWG1`6VM@Xk^1
 R14
 32
 R18
-R183
+R184
 R68
 R15
 R5
 Emux_n
 R7
 R10
-Z189 8/home/gim871/361ssp/single-cycle/lib/mux_n.vhd
-Z190 F/home/gim871/361ssp/single-cycle/lib/mux_n.vhd
+Z190 8/home/gim871/361ssp/single-cycle/lib/mux_n.vhd
+Z191 F/home/gim871/361ssp/single-cycle/lib/mux_n.vhd
 l0
 L4
-Z191 VAP3TUN0AgIHIkSP1g9I2h2
+Z192 VAP3TUN0AgIHIkSP1g9I2h2
 R14
 32
 R15
 R5
 Abehavioral
 R10
-Z192 DE work mux_n AP3TUN0AgIHIkSP1g9I2h2
+Z193 DE work mux_n AP3TUN0AgIHIkSP1g9I2h2
 l17
 L16
-Z193 VHe_`dTiLFkI]W1:f<mA8]1
+Z194 VHe_`dTiLFkI]W1:f<mA8]1
 R14
 32
 R41
@@ -882,21 +882,21 @@ R5
 Emuxtest
 R7
 R10
-Z194 8/home/gim871/361ssp/single-cycle/benches/muxtest.vhd
-Z195 F/home/gim871/361ssp/single-cycle/benches/muxtest.vhd
+Z195 8/home/gim871/361ssp/single-cycle/benches/muxtest.vhd
+Z196 F/home/gim871/361ssp/single-cycle/benches/muxtest.vhd
 l0
 L4
-Z196 V3iik^>dSfN[Do5g7XEzT00
+Z197 V3iik^>dSfN[Do5g7XEzT00
 R14
 32
 R15
 R5
 Astructural
 R10
-Z197 DE work muxtest 3iik^>dSfN[Do5g7XEzT00
+Z198 DE work muxtest 3iik^>dSfN[Do5g7XEzT00
 l34
 L10
-Z198 V9UT:J96L8KWc59fh6IPf12
+Z199 V9UT:J96L8KWc59fh6IPf12
 R14
 32
 R41
@@ -905,21 +905,21 @@ R5
 Enand_gate
 R7
 R10
-Z199 8/home/gim871/361ssp/single-cycle/lib/nand_gate.vhd
-Z200 F/home/gim871/361ssp/single-cycle/lib/nand_gate.vhd
+Z200 8/home/gim871/361ssp/single-cycle/lib/nand_gate.vhd
+Z201 F/home/gim871/361ssp/single-cycle/lib/nand_gate.vhd
 l0
 L5
-Z201 Ve3e2@JdTh<J`noVQnnJ@>0
+Z202 Ve3e2@JdTh<J`noVQnnJ@>0
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z202 DE work nand_gate e3e2@JdTh<J`noVQnnJ@>0
+Z203 DE work nand_gate e3e2@JdTh<J`noVQnnJ@>0
 l14
 L13
-Z203 VOo9O9VIM]EELEhRlg;3ci1
+Z204 VOo9O9VIM]EELEhRlg;3ci1
 R14
 32
 R41
@@ -928,21 +928,21 @@ R5
 Enand_gate_32
 R7
 R10
-Z204 8/home/gim871/361ssp/single-cycle/lib/nand_gate_32.vhd
-Z205 F/home/gim871/361ssp/single-cycle/lib/nand_gate_32.vhd
+Z205 8/home/gim871/361ssp/single-cycle/lib/nand_gate_32.vhd
+Z206 F/home/gim871/361ssp/single-cycle/lib/nand_gate_32.vhd
 l0
 L5
-Z206 V7Mkf65>_JL>B=JfiR<KU20
+Z207 V7Mkf65>_JL>B=JfiR<KU20
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z207 DE work nand_gate_32 7Mkf65>_JL>B=JfiR<KU20
+Z208 DE work nand_gate_32 7Mkf65>_JL>B=JfiR<KU20
 l14
 L13
-Z208 V:in@:;1K^ClbegAC^2JQZ3
+Z209 V:in@:;1K^ClbegAC^2JQZ3
 R14
 32
 R41
@@ -951,21 +951,21 @@ R5
 Enand_gate_n
 R7
 R10
-Z209 8/home/gim871/361ssp/single-cycle/lib/nand_gate_n.vhd
-Z210 F/home/gim871/361ssp/single-cycle/lib/nand_gate_n.vhd
+Z210 8/home/gim871/361ssp/single-cycle/lib/nand_gate_n.vhd
+Z211 F/home/gim871/361ssp/single-cycle/lib/nand_gate_n.vhd
 l0
 L5
-Z211 V@K[DNZGGXo]GX;VkAn@2K2
+Z212 V@K[DNZGGXo]GX;VkAn@2K2
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z212 DE work nand_gate_n @K[DNZGGXo]GX;VkAn@2K2
+Z213 DE work nand_gate_n @K[DNZGGXo]GX;VkAn@2K2
 l17
 L16
-Z213 VmY7=e>9IDNeY2Ti>dBgzF3
+Z214 VmY7=e>9IDNeY2Ti>dBgzF3
 R14
 32
 R41
@@ -974,21 +974,21 @@ R5
 Enor_gate
 R7
 R10
-Z214 8/home/gim871/361ssp/single-cycle/lib/nor_gate.vhd
-Z215 F/home/gim871/361ssp/single-cycle/lib/nor_gate.vhd
+Z215 8/home/gim871/361ssp/single-cycle/lib/nor_gate.vhd
+Z216 F/home/gim871/361ssp/single-cycle/lib/nor_gate.vhd
 l0
 L5
-Z216 V0Z9Y7ez]JMl814lR?Yn2B2
+Z217 V0Z9Y7ez]JMl814lR?Yn2B2
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z217 DE work nor_gate 0Z9Y7ez]JMl814lR?Yn2B2
+Z218 DE work nor_gate 0Z9Y7ez]JMl814lR?Yn2B2
 l14
 L13
-Z218 V1@WZWgBLHQB[6VPdSok4U3
+Z219 V1@WZWgBLHQB[6VPdSok4U3
 R14
 32
 R41
@@ -997,21 +997,21 @@ R5
 Enor_gate_32
 R7
 R10
-Z219 8/home/gim871/361ssp/single-cycle/lib/nor_gate_32.vhd
-Z220 F/home/gim871/361ssp/single-cycle/lib/nor_gate_32.vhd
+Z220 8/home/gim871/361ssp/single-cycle/lib/nor_gate_32.vhd
+Z221 F/home/gim871/361ssp/single-cycle/lib/nor_gate_32.vhd
 l0
 L5
-Z221 Vbl:knAzWoo_aMmj8M[0Jj3
+Z222 Vbl:knAzWoo_aMmj8M[0Jj3
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z222 DE work nor_gate_32 bl:knAzWoo_aMmj8M[0Jj3
+Z223 DE work nor_gate_32 bl:knAzWoo_aMmj8M[0Jj3
 l14
 L13
-Z223 VK[cEIO0ARcoJ>g<gaM04o2
+Z224 VK[cEIO0ARcoJ>g<gaM04o2
 R14
 32
 R41
@@ -1020,21 +1020,21 @@ R5
 Enor_gate_n
 R7
 R10
-Z224 8/home/gim871/361ssp/single-cycle/lib/nor_gate_n.vhd
-Z225 F/home/gim871/361ssp/single-cycle/lib/nor_gate_n.vhd
+Z225 8/home/gim871/361ssp/single-cycle/lib/nor_gate_n.vhd
+Z226 F/home/gim871/361ssp/single-cycle/lib/nor_gate_n.vhd
 l0
 L5
-Z226 V:k0ZH6hX:W?8RHjI0o7;B3
+Z227 V:k0ZH6hX:W?8RHjI0o7;B3
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z227 DE work nor_gate_n :k0ZH6hX:W?8RHjI0o7;B3
+Z228 DE work nor_gate_n :k0ZH6hX:W?8RHjI0o7;B3
 l17
 L16
-Z228 V9jT?68WO^=3XC=D=SMTPS2
+Z229 V9jT?68WO^=3XC=D=SMTPS2
 R14
 32
 R41
@@ -1043,21 +1043,21 @@ R5
 Enot_gate
 R7
 R10
-Z229 8/home/gim871/361ssp/single-cycle/lib/not_gate.vhd
-Z230 F/home/gim871/361ssp/single-cycle/lib/not_gate.vhd
+Z230 8/home/gim871/361ssp/single-cycle/lib/not_gate.vhd
+Z231 F/home/gim871/361ssp/single-cycle/lib/not_gate.vhd
 l0
 L5
-Z231 VXP@^J<e?l]CcJlKO@b[V?0
+Z232 VXP@^J<e?l]CcJlKO@b[V?0
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z232 DE work not_gate XP@^J<e?l]CcJlKO@b[V?0
+Z233 DE work not_gate XP@^J<e?l]CcJlKO@b[V?0
 l13
 L12
-Z233 V<k1;LQEQzF8B7:RRi7Mde1
+Z234 V<k1;LQEQzF8B7:RRi7Mde1
 R14
 32
 R41
@@ -1066,21 +1066,21 @@ R5
 Enot_gate_32
 R7
 R10
-Z234 8/home/gim871/361ssp/single-cycle/lib/not_gate_32.vhd
-Z235 F/home/gim871/361ssp/single-cycle/lib/not_gate_32.vhd
+Z235 8/home/gim871/361ssp/single-cycle/lib/not_gate_32.vhd
+Z236 F/home/gim871/361ssp/single-cycle/lib/not_gate_32.vhd
 l0
 L5
-Z236 VcC6XclZOO=K4MHiG:8Ma?3
+Z237 VcC6XclZOO=K4MHiG:8Ma?3
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z237 DE work not_gate_32 cC6XclZOO=K4MHiG:8Ma?3
+Z238 DE work not_gate_32 cC6XclZOO=K4MHiG:8Ma?3
 l13
 L12
-Z238 VL;<X?Q5>UWM;4L^2?L8;J1
+Z239 VL;<X?Q5>UWM;4L^2?L8;J1
 R14
 32
 R41
@@ -1089,21 +1089,21 @@ R5
 Enot_gate_n
 R7
 R10
-Z239 8/home/gim871/361ssp/single-cycle/lib/not_gate_n.vhd
-Z240 F/home/gim871/361ssp/single-cycle/lib/not_gate_n.vhd
+Z240 8/home/gim871/361ssp/single-cycle/lib/not_gate_n.vhd
+Z241 F/home/gim871/361ssp/single-cycle/lib/not_gate_n.vhd
 l0
 L5
-Z241 V;W<BHGSET;;Wbz>nW_AE21
+Z242 V;W<BHGSET;;Wbz>nW_AE21
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z242 DE work not_gate_n ;W<BHGSET;;Wbz>nW_AE21
+Z243 DE work not_gate_n ;W<BHGSET;;Wbz>nW_AE21
 l16
 L15
-Z243 VZagUI6;4O0Q8W`WI0RXP20
+Z244 VZagUI6;4O0Q8W`WI0RXP20
 R14
 32
 R41
@@ -1114,11 +1114,11 @@ R7
 R8
 R9
 R10
-Z244 8/home/gim871/361ssp/single-cycle/or_3.vhd
-Z245 F/home/gim871/361ssp/single-cycle/or_3.vhd
+Z245 8/home/gim871/361ssp/single-cycle/or_3.vhd
+Z246 F/home/gim871/361ssp/single-cycle/or_3.vhd
 l0
 L6
-Z246 V0cHKg@=mFh:bh=7[mkF;_3
+Z247 V0cHKg@=mFh:bh=7[mkF;_3
 R14
 32
 R15
@@ -1127,10 +1127,10 @@ Adataflow
 R8
 R9
 R10
-Z247 DE work or_3 0cHKg@=mFh:bh=7[mkF;_3
+Z248 DE work or_3 0cHKg@=mFh:bh=7[mkF;_3
 l15
 L13
-Z248 VBzW_:HUTkZG]DX5zi:K@a0
+Z249 VBzW_:HUTkZG]DX5zi:K@a0
 R14
 32
 R18
@@ -1143,11 +1143,11 @@ R7
 R8
 R9
 R10
-Z249 8/home/gim871/361ssp/single-cycle/or_6.vhd
-Z250 F/home/gim871/361ssp/single-cycle/or_6.vhd
+Z250 8/home/gim871/361ssp/single-cycle/or_6.vhd
+Z251 F/home/gim871/361ssp/single-cycle/or_6.vhd
 l0
 L6
-Z251 VjQ1JDO^d3GLQ^RMlO;W4n1
+Z252 VjQ1JDO^d3GLQ^RMlO;W4n1
 R14
 32
 R15
@@ -1156,10 +1156,10 @@ Astructural
 R8
 R9
 R10
-Z252 DE work or_6 jQ1JDO^d3GLQ^RMlO;W4n1
+Z253 DE work or_6 jQ1JDO^d3GLQ^RMlO;W4n1
 l16
 L13
-Z253 VZ4KV<Zj^k8SJY6F63b:5]1
+Z254 VZ4KV<Zj^k8SJY6F63b:5]1
 R14
 32
 R18
@@ -1170,21 +1170,21 @@ R5
 Eor_6_test
 R7
 R10
-Z254 8/home/gim871/361ssp/single-cycle/benches/or_6_test.vhd
-Z255 F/home/gim871/361ssp/single-cycle/benches/or_6_test.vhd
+Z255 8/home/gim871/361ssp/single-cycle/benches/or_6_test.vhd
+Z256 F/home/gim871/361ssp/single-cycle/benches/or_6_test.vhd
 l0
 L4
-Z256 V^h`X;1:=kkJ]69Nb?F:1e1
+Z257 V^h`X;1:=kkJ]69Nb?F:1e1
 R14
 32
 R15
 R5
 Astructural
 R10
-Z257 DE work or_6_test ^h`X;1:=kkJ]69Nb?F:1e1
+Z258 DE work or_6_test ^h`X;1:=kkJ]69Nb?F:1e1
 l21
 L10
-Z258 VbbHM=jRNaQh8ld@2icWGe1
+Z259 VbbHM=jRNaQh8ld@2icWGe1
 R14
 32
 R41
@@ -1193,21 +1193,21 @@ R5
 Eor_gate
 R7
 R10
-Z259 8/home/gim871/361ssp/single-cycle/lib/or_gate.vhd
-Z260 F/home/gim871/361ssp/single-cycle/lib/or_gate.vhd
+Z260 8/home/gim871/361ssp/single-cycle/lib/or_gate.vhd
+Z261 F/home/gim871/361ssp/single-cycle/lib/or_gate.vhd
 l0
 L5
-Z261 VPobQeTH]Bgm3H`aI8;k>31
+Z262 VPobQeTH]Bgm3H`aI8;k>31
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z262 DE work or_gate PobQeTH]Bgm3H`aI8;k>31
+Z263 DE work or_gate PobQeTH]Bgm3H`aI8;k>31
 l14
 L13
-Z263 V:T1M><UC2A[fd__0Z3V321
+Z264 V:T1M><UC2A[fd__0Z3V321
 R14
 32
 R41
@@ -1216,21 +1216,21 @@ R5
 Eor_gate_32
 R7
 R10
-Z264 8/home/gim871/361ssp/single-cycle/lib/or_gate_32.vhd
-Z265 F/home/gim871/361ssp/single-cycle/lib/or_gate_32.vhd
+Z265 8/home/gim871/361ssp/single-cycle/lib/or_gate_32.vhd
+Z266 F/home/gim871/361ssp/single-cycle/lib/or_gate_32.vhd
 l0
 L5
-Z266 VH7CDAnY5XCR^8?WZYlO9S3
+Z267 VH7CDAnY5XCR^8?WZYlO9S3
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z267 DE work or_gate_32 H7CDAnY5XCR^8?WZYlO9S3
+Z268 DE work or_gate_32 H7CDAnY5XCR^8?WZYlO9S3
 l14
 L13
-Z268 V=;K87[]nQK7VVOfa414za0
+Z269 V=;K87[]nQK7VVOfa414za0
 R14
 32
 R41
@@ -1239,21 +1239,21 @@ R5
 Eor_gate_n
 R7
 R10
-Z269 8/home/gim871/361ssp/single-cycle/lib/or_gate_n.vhd
-Z270 F/home/gim871/361ssp/single-cycle/lib/or_gate_n.vhd
+Z270 8/home/gim871/361ssp/single-cycle/lib/or_gate_n.vhd
+Z271 F/home/gim871/361ssp/single-cycle/lib/or_gate_n.vhd
 l0
 L5
-Z271 VXnPMiQfo2id:2^4:z57Ee1
+Z272 VXnPMiQfo2id:2^4:z57Ee1
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z272 DE work or_gate_n XnPMiQfo2id:2^4:z57Ee1
+Z273 DE work or_gate_n XnPMiQfo2id:2^4:z57Ee1
 l17
 L16
-Z273 VG3AN:gb8ESJCPc^@2_@8T2
+Z274 VG3AN:gb8ESJCPc^@2_@8T2
 R14
 32
 R41
@@ -1264,11 +1264,11 @@ R7
 R8
 R9
 R10
-Z274 8/home/gim871/361ssp/single-cycle/alu/overflower.vhd
-Z275 F/home/gim871/361ssp/single-cycle/alu/overflower.vhd
+Z275 8/home/gim871/361ssp/single-cycle/alu/overflower.vhd
+Z276 F/home/gim871/361ssp/single-cycle/alu/overflower.vhd
 l0
 L6
-Z276 V3nR>E`MDbBD740>?f_j6T3
+Z277 V3nR>E`MDbBD740>?f_j6T3
 R14
 32
 R15
@@ -1277,10 +1277,10 @@ Astructural
 R8
 R9
 R10
-Z277 DE work overflower 3nR>E`MDbBD740>?f_j6T3
+Z278 DE work overflower 3nR>E`MDbBD740>?f_j6T3
 l38
 L16
-Z278 V5?YY8P3oT[fD1idW3;fSH1
+Z279 V5?YY8P3oT[fD1idW3;fSH1
 R14
 32
 R18
@@ -1293,11 +1293,11 @@ R7
 R8
 R9
 R10
-Z279 8/home/gim871/361ssp/single-cycle/pc_counter.vhd
-Z280 F/home/gim871/361ssp/single-cycle/pc_counter.vhd
+Z280 8/home/gim871/361ssp/single-cycle/pc_counter.vhd
+Z281 F/home/gim871/361ssp/single-cycle/pc_counter.vhd
 l0
 L6
-Z281 VR8bcbiY[a]jK7SPn2cSBP3
+Z282 VR8bcbiY[a]jK7SPn2cSBP3
 R14
 32
 R15
@@ -1306,10 +1306,10 @@ Astructural
 R8
 R9
 R10
-Z282 DE work pc_counter R8bcbiY[a]jK7SPn2cSBP3
+Z283 DE work pc_counter R8bcbiY[a]jK7SPn2cSBP3
 l32
 L17
-Z283 VP9Oa6lFRgig@1ZIfBdb]>0
+Z284 VP9Oa6lFRgig@1ZIfBdb]>0
 R14
 32
 R18
@@ -1320,36 +1320,36 @@ R5
 Epc_counter_demo
 R7
 R10
-Z284 8/home/gim871/361ssp/single-cycle/benches/pc_counter_dem.vhd
-Z285 F/home/gim871/361ssp/single-cycle/benches/pc_counter_dem.vhd
+Z285 8/home/gim871/361ssp/single-cycle/benches/pc_counter_dem.vhd
+Z286 F/home/gim871/361ssp/single-cycle/benches/pc_counter_dem.vhd
 l0
 L4
-Z286 VK<kFe=BeCV2:BBCPGGL432
+Z287 VK<kFe=BeCV2:BBCPGGL432
 R14
 32
 R15
 R5
 Astructural
 R10
-Z287 DE work pc_counter_demo K<kFe=BeCV2:BBCPGGL432
+Z288 DE work pc_counter_demo K<kFe=BeCV2:BBCPGGL432
 l32
 L10
-Z288 Vg6<9N6J@8R7O_N]iZN[PR3
+Z289 Vg6<9N6J@8R7O_N]iZN[PR3
 R14
 32
 R41
 R15
 R5
 Epcreg
-Z289 w1385066019
+Z290 w1385066019
 R8
 R9
 R10
-Z290 8/home/gim871/361ssp/single-cycle/pcreg.vhd
-Z291 F/home/gim871/361ssp/single-cycle/pcreg.vhd
+Z291 8/home/gim871/361ssp/single-cycle/pcreg.vhd
+Z292 F/home/gim871/361ssp/single-cycle/pcreg.vhd
 l0
 L6
-Z292 VLV9D;jU6T>:GgX^SkakcN0
+Z293 VLV9D;jU6T>:GgX^SkakcN0
 R14
 32
 R15
@@ -1358,10 +1358,10 @@ Astructural
 R8
 R9
 R10
-Z293 DE work pcreg LV9D;jU6T>:GgX^SkakcN0
+Z294 DE work pcreg LV9D;jU6T>:GgX^SkakcN0
 l20
 L18
-Z294 Vz3VW96I?D]I]8eLh[fRz]0
+Z295 Vz3VW96I?D]I]8eLh[fRz]0
 R14
 32
 R18
@@ -1370,15 +1370,15 @@ R20
 R15
 R5
 Eprocessor
-Z295 w1385065016
+Z296 w1385065016
 R8
 R9
 R10
-Z296 8/home/gim871/361ssp/single-cycle/processor.vhd
-Z297 F/home/gim871/361ssp/single-cycle/processor.vhd
+Z297 8/home/gim871/361ssp/single-cycle/processor.vhd
+Z298 F/home/gim871/361ssp/single-cycle/processor.vhd
 l0
 L6
-Z298 VhoFT^_J3;OQP6YoG3TX7L3
+Z299 VhoFT^_J3;OQP6YoG3TX7L3
 R14
 32
 R15
@@ -1387,10 +1387,10 @@ Astructural
 R8
 R9
 R10
-Z299 DE work processor hoFT^_J3;OQP6YoG3TX7L3
+Z300 DE work processor hoFT^_J3;OQP6YoG3TX7L3
 l159
 L16
-Z300 V5Y^llj^9L7Sk[kaen8?2b3
+Z301 V5Y^llj^9L7Sk[kaen8?2b3
 R14
 32
 R18
@@ -1403,36 +1403,36 @@ R9
 R8
 R10
 R7
-Z301 8/home/gim871/361ssp/single-cycle/processor_components.vhd
-Z302 F/home/gim871/361ssp/single-cycle/processor_components.vhd
+Z302 8/home/gim871/361ssp/single-cycle/processor_components.vhd
+Z303 F/home/gim871/361ssp/single-cycle/processor_components.vhd
 l0
 L6
-Z303 VR=][9Sb]h4NkI_Uh>RbFS1
+Z304 VR=][9Sb]h4NkI_Uh>RbFS1
 R14
 32
 R18
-R183
+R184
 R68
 R15
 R5
 Eprocessor_demo
-Z304 w1385066293
+Z305 w1385066293
 R10
-Z305 8/home/gim871/361ssp/single-cycle/benches/processor_demo.vhd
-Z306 F/home/gim871/361ssp/single-cycle/benches/processor_demo.vhd
+Z306 8/home/gim871/361ssp/single-cycle/benches/processor_demo.vhd
+Z307 F/home/gim871/361ssp/single-cycle/benches/processor_demo.vhd
 l0
 L6
-Z307 Vk^HdC?n:z4EESTmW>0beJ3
+Z308 Vk^HdC?n:z4EESTmW>0beJ3
 R14
 32
 R15
 R5
 Astructural
 R10
-Z308 DE work processor_demo k^HdC?n:z4EESTmW>0beJ3
+Z309 DE work processor_demo k^HdC?n:z4EESTmW>0beJ3
 l28
 L12
-Z309 V1>>oObhZGo5mSk`eVV<E=3
+Z310 V1>>oObhZGo5mSk`eVV<E=3
 R14
 32
 R41
@@ -1443,11 +1443,11 @@ R7
 R8
 R9
 R10
-Z310 8/home/gim871/361ssp/single-cycle/register_component.vhd
-Z311 F/home/gim871/361ssp/single-cycle/register_component.vhd
+Z311 8/home/gim871/361ssp/single-cycle/register_component.vhd
+Z312 F/home/gim871/361ssp/single-cycle/register_component.vhd
 l0
 L6
-Z312 VGD[dL2eT7g64:]^lVMZFI0
+Z313 VGD[dL2eT7g64:]^lVMZFI0
 R14
 32
 R15
@@ -1456,10 +1456,10 @@ Astructural
 R8
 R9
 R10
-Z313 DE work register_component GD[dL2eT7g64:]^lVMZFI0
+Z314 DE work register_component GD[dL2eT7g64:]^lVMZFI0
 l87
 L20
-Z314 V4J?CSj7g7bR<1Fg=VMW3=2
+Z315 V4J?CSj7g7bR<1Fg=VMW3=2
 R14
 32
 R18
@@ -1470,36 +1470,36 @@ R5
 Eregister_demo
 R7
 R10
-Z315 8/home/gim871/361ssp/single-cycle/benches/register_component_test.vhd
-Z316 F/home/gim871/361ssp/single-cycle/benches/register_component_test.vhd
+Z316 8/home/gim871/361ssp/single-cycle/benches/register_component_test.vhd
+Z317 F/home/gim871/361ssp/single-cycle/benches/register_component_test.vhd
 l0
 L4
-Z317 V;^_]HGda8aUW[_U^U[9RK0
+Z318 V;^_]HGda8aUW[_U^U[9RK0
 R14
 32
 R15
 R5
 Astructural
 R10
-Z318 DE work register_demo ;^_]HGda8aUW[_U^U[9RK0
+Z319 DE work register_demo ;^_]HGda8aUW[_U^U[9RK0
 l33
 L11
-Z319 Veg;^OSdYLee=bKNeSnE>=1
+Z320 Veg;^OSdYLee=bKNeSnE>=1
 R14
 32
 R41
 R15
 R5
 Eregister_we_gen
-Z320 w1385056791
+Z321 w1385056791
 R8
 R9
 R10
-Z321 8/home/gim871/361ssp/single-cycle/register_we_gen.vhd
-Z322 F/home/gim871/361ssp/single-cycle/register_we_gen.vhd
+Z322 8/home/gim871/361ssp/single-cycle/register_we_gen.vhd
+Z323 F/home/gim871/361ssp/single-cycle/register_we_gen.vhd
 l0
 L6
-Z323 V3ag<BBIJjd@ZooVzNQH;82
+Z324 V3ag<BBIJjd@ZooVzNQH;82
 R14
 32
 R15
@@ -1508,10 +1508,10 @@ Astructural
 R8
 R9
 R10
-Z324 DE work register_we_gen 3ag<BBIJjd@ZooVzNQH;82
+Z325 DE work register_we_gen 3ag<BBIJjd@ZooVzNQH;82
 l87
 L14
-Z325 VH[M3LN8XGAYEiVfl1k;G12
+Z326 VH[M3LN8XGAYEiVfl1k;G12
 R14
 32
 R18
@@ -1523,11 +1523,11 @@ Erippleadder32
 R7
 R9
 R10
-Z326 8/home/gim871/361ssp/single-cycle/alu/ripple32.vhd
-Z327 F/home/gim871/361ssp/single-cycle/alu/ripple32.vhd
+Z327 8/home/gim871/361ssp/single-cycle/alu/ripple32.vhd
+Z328 F/home/gim871/361ssp/single-cycle/alu/ripple32.vhd
 l0
 L5
-Z328 VmKo`0FI0n4IJK;zWRGQGY3
+Z329 VmKo`0FI0n4IJK;zWRGQGY3
 R14
 32
 R15
@@ -1535,10 +1535,10 @@ R5
 Astructural
 R9
 R10
-Z329 DE work rippleadder32 mKo`0FI0n4IJK;zWRGQGY3
+Z330 DE work rippleadder32 mKo`0FI0n4IJK;zWRGQGY3
 l28
 L15
-Z330 V4D4ONXD8MULjePWe=>e[10
+Z331 V4D4ONXD8MULjePWe=>e[10
 R14
 32
 R67
@@ -1546,14 +1546,14 @@ R68
 R15
 R5
 Esign_extender
-R320
+R321
 R9
 R10
-Z331 8/home/gim871/361ssp/single-cycle/sign_extender.vhd
-Z332 F/home/gim871/361ssp/single-cycle/sign_extender.vhd
+Z332 8/home/gim871/361ssp/single-cycle/sign_extender.vhd
+Z333 F/home/gim871/361ssp/single-cycle/sign_extender.vhd
 l0
 L6
-Z333 VS]jjzZP61@;;ic63gk1Id3
+Z334 VS]jjzZP61@;;ic63gk1Id3
 R14
 32
 R15
@@ -1561,10 +1561,10 @@ R5
 Astructural
 R9
 R10
-Z334 DE work sign_extender S]jjzZP61@;;ic63gk1Id3
+Z335 DE work sign_extender S]jjzZP61@;;ic63gk1Id3
 l15
 L13
-Z335 VlX>HIQe`QOknoNUHO>oWn3
+Z336 VlX>HIQe`QOknoNUHO>oWn3
 R14
 32
 R67
@@ -1574,21 +1574,21 @@ R5
 Esign_extender_demo
 R7
 R10
-Z336 8/home/gim871/361ssp/single-cycle/benches/sign_extender_demo.vhd
-Z337 F/home/gim871/361ssp/single-cycle/benches/sign_extender_demo.vhd
+Z337 8/home/gim871/361ssp/single-cycle/benches/sign_extender_demo.vhd
+Z338 F/home/gim871/361ssp/single-cycle/benches/sign_extender_demo.vhd
 l0
 L4
-Z338 VAVQ7nFif7jL0TgF<Y9STY2
+Z339 VAVQ7nFif7jL0TgF<Y9STY2
 R14
 32
 R15
 R5
 Astructural
 R10
-Z339 DE work sign_extender_demo AVQ7nFif7jL0TgF<Y9STY2
+Z340 DE work sign_extender_demo AVQ7nFif7jL0TgF<Y9STY2
 l21
 L10
-Z340 VHz<IM_gXZ_6]2HhYmd_3=1
+Z341 VHz<IM_gXZ_6]2HhYmd_3=1
 R14
 32
 R41
@@ -1596,53 +1596,53 @@ R15
 R5
 Esram
 R7
-R110
-Z341 DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
-Z342 DP std textio K]Z^fghZ6B=BjnK5NomDT3
-Z343 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
-Z344 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
+R111
+Z342 DP ieee std_logic_textio 8YS?iX`WD1REQG`ZRYQGB2
+Z343 DP std textio K]Z^fghZ6B=BjnK5NomDT3
+Z344 DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
+Z345 DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
 R10
-Z345 8/home/gim871/361ssp/single-cycle/lib/sram.vhd
-Z346 F/home/gim871/361ssp/single-cycle/lib/sram.vhd
+Z346 8/home/gim871/361ssp/single-cycle/lib/sram.vhd
+Z347 F/home/gim871/361ssp/single-cycle/lib/sram.vhd
 l0
 L12
-Z347 VD[K6nRz3ncm10jT>?DOML3
+Z348 VD[K6nRz3ncm10jT>?DOML3
 R14
 32
 R15
 R5
 Abehavioral
-R110
-R341
+R111
 R342
 R343
 R344
+R345
 R10
-Z348 DE work sram D[K6nRz3ncm10jT>?DOML3
+Z349 DE work sram D[K6nRz3ncm10jT>?DOML3
 l27
 L26
-Z349 Vm;b;[MPebHhV<6D3GM:dB1
+Z350 Vm;b;[MPebHhV<6D3GM:dB1
 R14
 32
-Z350 M6 ieee std_logic_1164
-Z351 M5 ieee std_logic_unsigned
-Z352 M4 ieee std_logic_arith
-Z353 M3 std textio
-Z354 M2 ieee std_logic_textio
-R119
+Z351 M6 ieee std_logic_1164
+Z352 M5 ieee std_logic_unsigned
+Z353 M4 ieee std_logic_arith
+Z354 M3 std textio
+Z355 M2 ieee std_logic_textio
+R120
 R15
 R5
 Esram_demo
 R7
 R8
 R9
-R110
+R111
 R10
-Z355 8/home/gim871/361ssp/single-cycle/readsram.vhd
-Z356 F/home/gim871/361ssp/single-cycle/readsram.vhd
+Z356 8/home/gim871/361ssp/single-cycle/readsram.vhd
+Z357 F/home/gim871/361ssp/single-cycle/readsram.vhd
 l0
 L6
-Z357 VZ5N?0lekla?W0em9D>nWT0
+Z358 VZ5N?0lekla?W0em9D>nWT0
 R14
 32
 R15
@@ -1650,67 +1650,67 @@ R5
 Astructural
 R8
 R9
-R110
+R111
 R10
-Z358 DE work sram_demo Z5N?0lekla?W0em9D>nWT0
+Z359 DE work sram_demo Z5N?0lekla?W0em9D>nWT0
 l18
 L11
-Z359 VAOHGQ7SMfAQe:Rhj9O7OP0
+Z360 VAOHGQ7SMfAQe:Rhj9O7OP0
 R14
 32
-R176
 R177
+R178
 R19
 R20
 R15
 R5
 Esyncram
 R7
-R110
-R341
+R111
 R342
 R343
 R344
+R345
 R10
-Z360 8/home/gim871/361ssp/single-cycle/lib/syncram.vhd
-Z361 F/home/gim871/361ssp/single-cycle/lib/syncram.vhd
+Z361 8/home/gim871/361ssp/single-cycle/lib/syncram.vhd
+Z362 F/home/gim871/361ssp/single-cycle/lib/syncram.vhd
 l0
 L12
-Z362 V]e:Y?obJ[4M8b[19LA@K03
+Z363 V]e:Y?obJ[4M8b[19LA@K03
 R14
 32
 R15
 R5
 Abehavioral
-R110
-R341
+R111
 R342
 R343
 R344
+R345
 R10
-Z363 DE work syncram ]e:Y?obJ[4M8b[19LA@K03
+Z364 DE work syncram ]e:Y?obJ[4M8b[19LA@K03
 l28
 L27
-Z364 VTbiEHF5k9SX[KFh3dAhke3
+Z365 VTbiEHF5k9SX[KFh3dAhke3
 R14
 32
-R350
 R351
 R352
 R353
 R354
-R119
+R355
+R120
 R15
 R5
 Etripleand
 R7
 R9
 R10
-Z365 8/home/gim871/361ssp/single-cycle/alu/tripleand.vhd
-Z366 F/home/gim871/361ssp/single-cycle/alu/tripleand.vhd
+Z366 8/home/gim871/361ssp/single-cycle/alu/tripleand.vhd
+Z367 F/home/gim871/361ssp/single-cycle/alu/tripleand.vhd
 l0
 L5
-Z367 VR9PlTM5W@GQLX5z;o7^8N3
+Z368 VR9PlTM5W@GQLX5z;o7^8N3
 R14
 32
 R15
@@ -1718,10 +1718,10 @@ R5
 Astructural
 R9
 R10
-Z368 DE work tripleand R9PlTM5W@GQLX5z;o7^8N3
+Z369 DE work tripleand R9PlTM5W@GQLX5z;o7^8N3
 l18
 L14
-Z369 V0NSJD[gj7f1m`Ti5GHAjz2
+Z370 V0NSJD[gj7f1m`Ti5GHAjz2
 R14
 32
 R67
@@ -1731,21 +1731,21 @@ R5
 Exnor_gate
 R7
 R10
-Z370 8/home/gim871/361ssp/single-cycle/lib/xnor_gate.vhd
-Z371 F/home/gim871/361ssp/single-cycle/lib/xnor_gate.vhd
+Z371 8/home/gim871/361ssp/single-cycle/lib/xnor_gate.vhd
+Z372 F/home/gim871/361ssp/single-cycle/lib/xnor_gate.vhd
 l0
 L5
-Z372 V0jC_AEbQ?fX[VC;d9f=SZ0
+Z373 V0jC_AEbQ?fX[VC;d9f=SZ0
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z373 DE work xnor_gate 0jC_AEbQ?fX[VC;d9f=SZ0
+Z374 DE work xnor_gate 0jC_AEbQ?fX[VC;d9f=SZ0
 l14
 L13
-Z374 V][HPFQ:M`=3IFhOU=XVYJ0
+Z375 V][HPFQ:M`=3IFhOU=XVYJ0
 R14
 32
 R41
@@ -1754,21 +1754,21 @@ R5
 Exnor_gate_32
 R7
 R10
-Z375 8/home/gim871/361ssp/single-cycle/lib/xnor_gate_32.vhd
-Z376 F/home/gim871/361ssp/single-cycle/lib/xnor_gate_32.vhd
+Z376 8/home/gim871/361ssp/single-cycle/lib/xnor_gate_32.vhd
+Z377 F/home/gim871/361ssp/single-cycle/lib/xnor_gate_32.vhd
 l0
 L5
-Z377 VRBRJkD;GmzZ;KGbV>TfCE0
+Z378 VRBRJkD;GmzZ;KGbV>TfCE0
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z378 DE work xnor_gate_32 RBRJkD;GmzZ;KGbV>TfCE0
+Z379 DE work xnor_gate_32 RBRJkD;GmzZ;KGbV>TfCE0
 l14
 L13
-Z379 VchlkO?g<:;C7BR0hd]5FV0
+Z380 VchlkO?g<:;C7BR0hd]5FV0
 R14
 32
 R41
@@ -1777,21 +1777,21 @@ R5
 Exnor_gate_n
 R7
 R10
-Z380 8/home/gim871/361ssp/single-cycle/lib/xnor_gate_n.vhd
-Z381 F/home/gim871/361ssp/single-cycle/lib/xnor_gate_n.vhd
+Z381 8/home/gim871/361ssp/single-cycle/lib/xnor_gate_n.vhd
+Z382 F/home/gim871/361ssp/single-cycle/lib/xnor_gate_n.vhd
 l0
 L5
-Z382 VQ5SkE=YScX<bAnLWRJeLY2
+Z383 VQ5SkE=YScX<bAnLWRJeLY2
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z383 DE work xnor_gate_n Q5SkE=YScX<bAnLWRJeLY2
+Z384 DE work xnor_gate_n Q5SkE=YScX<bAnLWRJeLY2
 l17
 L16
-Z384 VLC0RBM2e5O=z4B8[nmYS50
+Z385 VLC0RBM2e5O=z4B8[nmYS50
 R14
 32
 R41
@@ -1800,21 +1800,21 @@ R5
 Exor_gate
 R7
 R10
-Z385 8/home/gim871/361ssp/single-cycle/lib/xor_gate.vhd
-Z386 F/home/gim871/361ssp/single-cycle/lib/xor_gate.vhd
+Z386 8/home/gim871/361ssp/single-cycle/lib/xor_gate.vhd
+Z387 F/home/gim871/361ssp/single-cycle/lib/xor_gate.vhd
 l0
 L5
-Z387 VbjSHRh8@2g]F@@2[VWf6l1
+Z388 VbjSHRh8@2g]F@@2[VWf6l1
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z388 DE work xor_gate bjSHRh8@2g]F@@2[VWf6l1
+Z389 DE work xor_gate bjSHRh8@2g]F@@2[VWf6l1
 l14
 L13
-Z389 VQF4A7TezMo3;;R6IF:@c?0
+Z390 VQF4A7TezMo3;;R6IF:@c?0
 R14
 32
 R41
@@ -1823,21 +1823,21 @@ R5
 Exor_gate_32
 R7
 R10
-Z390 8/home/gim871/361ssp/single-cycle/lib/xor_gate_32.vhd
-Z391 F/home/gim871/361ssp/single-cycle/lib/xor_gate_32.vhd
+Z391 8/home/gim871/361ssp/single-cycle/lib/xor_gate_32.vhd
+Z392 F/home/gim871/361ssp/single-cycle/lib/xor_gate_32.vhd
 l0
 L5
-Z392 Vi1l=7]fR<l]0hCK8E^IZW3
+Z393 Vi1l=7]fR<l]0hCK8E^IZW3
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z393 DE work xor_gate_32 i1l=7]fR<l]0hCK8E^IZW3
+Z394 DE work xor_gate_32 i1l=7]fR<l]0hCK8E^IZW3
 l14
 L13
-Z394 VlQDA]gCWf5zNUcF>DSMlC3
+Z395 VlQDA]gCWf5zNUcF>DSMlC3
 R14
 32
 R41
@@ -1846,21 +1846,21 @@ R5
 Exor_gate_n
 R7
 R10
-Z395 8/home/gim871/361ssp/single-cycle/lib/xor_gate_n.vhd
-Z396 F/home/gim871/361ssp/single-cycle/lib/xor_gate_n.vhd
+Z396 8/home/gim871/361ssp/single-cycle/lib/xor_gate_n.vhd
+Z397 F/home/gim871/361ssp/single-cycle/lib/xor_gate_n.vhd
 l0
 L5
-Z397 VY>2j8ke4[;]oUS6I4Nak60
+Z398 VY>2j8ke4[;]oUS6I4Nak60
 R14
 32
 R15
 R5
 Adataflow
 R10
-Z398 DE work xor_gate_n Y>2j8ke4[;]oUS6I4Nak60
+Z399 DE work xor_gate_n Y>2j8ke4[;]oUS6I4Nak60
 l17
 L16
-Z399 VY]BUeL=[7e79jmfInCRiH2
+Z400 VY]BUeL=[7e79jmfInCRiH2
 R14
 32
 R41
@@ -1871,11 +1871,11 @@ R7
 R8
 R9
 R10
-Z400 8/home/gim871/361ssp/single-cycle/alu/zero32.vhd
-Z401 F/home/gim871/361ssp/single-cycle/alu/zero32.vhd
+Z401 8/home/gim871/361ssp/single-cycle/alu/zero32.vhd
+Z402 F/home/gim871/361ssp/single-cycle/alu/zero32.vhd
 l0
 L6
-Z402 VhKIMejS]TYTK=MNQiMZDO1
+Z403 VhKIMejS]TYTK=MNQiMZDO1
 R14
 32
 R15
@@ -1884,10 +1884,10 @@ Astructural
 R8
 R9
 R10
-Z403 DE work zero32 hKIMejS]TYTK=MNQiMZDO1
+Z404 DE work zero32 hKIMejS]TYTK=MNQiMZDO1
 l21
 L13
-Z404 VjK=LJh^1aBKPJ:jLHg8Vz0
+Z405 VjK=LJh^1aBKPJ:jLHg8Vz0
 R14
 32
 R18
