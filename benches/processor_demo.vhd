@@ -60,7 +60,15 @@ test_proc : process
         clk <= '0';
         wait for 400 ns;
         clk <= '1';
-        wait for 400 ns;          
+        wait for 400 ns;       
+                clk <= '0';
+                wait for 400 ns;
+                clk <= '1';
+                wait for 400 ns; 
+                clk <= '0';
+                wait for 400 ns;
+                clk <= '1';
+                wait for 400 ns;       
     wait;
   end process;
 end architecture structural;

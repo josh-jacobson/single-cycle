@@ -189,7 +189,7 @@ begin
         initRAM(mem_file, head);
         needInit := false;
       end if;
-      if rising_edge(clk) and we = '1' then
+      if rising_edge(clk) then
           if cs = '1' then
             if we = '1' then
               setWord(head, addr, din);

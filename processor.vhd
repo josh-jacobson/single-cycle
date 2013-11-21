@@ -55,6 +55,19 @@ din	  :	in	std_logic_vector(31 downto 0);
 dout  :	out std_logic_vector(31 downto 0)
 );
 end component syncram;
+component sram is
+generic (
+mem_file : string
+);
+port (
+cs	  : in	std_logic;
+oe	  :	in	std_logic;
+we	  :	in	std_logic;
+addr  : in	std_logic_vector(31 downto 0);
+din	  :	in	std_logic_vector(31 downto 0);
+dout  :	out std_logic_vector(31 downto 0)
+);
+end component sram;
 component register_component is
 port (
 busw    : in  std_logic_vector(31 downto 0);
@@ -183,7 +196,7 @@ alu_source_mux_map : mux_32 port map (ALUSrc, register_output_b, branch_address,
 ALU_map : ALU port map (ALU_a_input, ALU_b_input, ALU_command, shamt, ALU_result, carry_out, zero_flag, overflow);
 
 -- Data memory:
-data_memory_map : syncram generic map (memfile) port map(clk,'1', MemRead,MemWrite, ALU_result, register_output_b, data_from_memory);
+data_memory_map : sram generic map (memfile) port map('1', MemRead,MemWrite, ALU_result, register_output_b, data_from_memory);
 
 -- next instruction logic
 PC_incrementer_map : rippleadder32 port map(PC_output, "00000000000000000000000000000100", '0', incremented_PC, dummy1);
