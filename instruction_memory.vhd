@@ -8,8 +8,8 @@ generic (
 	mem_file : string
   );
 port (
-    addr : std_logic_vector(31 downto 0);
-    inst :out std_logic_vector(31 downto 0)
+    addr : in std_logic_vector(31 downto 0);
+    inst : out std_logic_vector(31 downto 0)
 );
 end instruction_memory;
 architecture structural  of  instruction_memory  is
