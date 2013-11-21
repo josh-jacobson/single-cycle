@@ -41,15 +41,18 @@ test_proc : process
     tbusw <= "11011000000000000000000000000100";
     tclk <= '0';
     treset <= '1';
-    twe <= '0';
+    twe <= '1';
     wait for 100 ns;
     treset <= '0';
     wait for 100 ns;
     tclk <= '1';
+    tbusw <= "11011000000000001000000000000100";
+
     wait for 100 ns;
-    twe <= '1';
+
     tclk <= '0';
     wait for 100 ns;
+        trt <= "11111";
     tclk <= '1';
     wait for 100 ns;
     wait;

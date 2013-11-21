@@ -7,6 +7,7 @@ entity pc_counter is
   port (
     pcc       : out  std_logic_vector(31 downto 0);
     dc       : in  std_logic_vector(31 downto 0);
+    aload      :in std_logic_vector(31 downto 0);
     clk       : in  std_logic;
     reset       : in  std_logic
   );
@@ -31,6 +32,6 @@ architecture structural of pc_counter is
  begin
  add_out <= dc(31 downto 2) & "00";
  
- pcreg : a32bitreg port map (d => add_out, arst => reset, enable => '1', aload => "00000000000000000000000000000000", q=> pcc, clk => clk);
+ pcreg : a32bitreg port map (d => add_out, arst => reset, enable => '1', aload => aload, q=> pcc, clk => clk);
   
 end architecture structural;

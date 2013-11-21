@@ -17,7 +17,7 @@ signal  din :  std_logic_vector(31  downto  0);
 signal  ctrl_bus  :  std_logic_vector(2  downto  0);
 begin
    sram_map  :  sram
-   generic  map  (mem_file  =>  "sort_corrected_branch.dat")
+   generic  map  (mem_file  =>  "/home/jdj560/single-cycle/sort_corrected_branch.dat")
         port  map  (cs  =>  cs,  oe  =>  oe,  we  =>  we,  addr  =>  addr,  din  =>  din,
 dout  =>  dout);
     cs  <=  ctrl_bus(2);

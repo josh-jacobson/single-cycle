@@ -6,7 +6,9 @@ use work.eecs361.all;
 entity processor is
    generic ( memfile : string );
    port (
-    clk : in  std_logic
+    clk : in  std_logic;
+    aload : in std_logic_vector(31 downto 0);
+    reset : in std_logic
   );
 end processor;
 
@@ -22,7 +24,7 @@ architecture structural of processor is
       );
     end component instruction_decoder;
     component instruction_memory is
-       generic ( memfile : string );
+       generic ( mem_file : string );
        port (
            addr : in std_logic_vector(31 downto 0);
            inst : out std_logic_vector(31 downto 0)
@@ -32,6 +34,7 @@ architecture structural of processor is
         port (
           pcc       : out  std_logic_vector(31 downto 0);
           dc       : in  std_logic_vector(31 downto 0);
+          aload      :in std_logic_vector(31 downto 0);
           clk       : in  std_logic;
           reset       : in  std_logic
         );
@@ -133,12 +136,13 @@ architecture structural of processor is
     signal data_from_memory : std_logic_vector (31 downto 0);
     
     -- Register file
-    signal data_to_write_to_register : std_logic_vector (31 downto 0);
+    signal data_to_write_to_register : std_logic_vector (31 downto 0):= "00000000000000000000000000000000";
     signal destination_register : std_logic_vector (4 downto 0);
     signal register_output_b : std_logic_vector (31 downto 0);
     
     -- Program Counter
-    signal chosen_pc, pc_output, incremented_pc : std_logic_vector(31 downto 0);
+    signal pc_output : std_logic_vector(31 downto 0):= "00000000010000000000000000100000";
+    signal chosen_pc, incremented_pc : std_logic_vector(31 downto 0);
     
     -- branch logic
     signal calculated_branch_address : std_logic_vector (31 downto 0); -- address after adding 4 then adding the branch amount from instruction
@@ -152,7 +156,7 @@ architecture structural of processor is
   begin
   
   -- Program counter
-  pc_counter_map : pc_counter port map (pc_output, chosen_pc, clk, '0');
+  pc_counter_map : pc_counter port map (pc_output, aload, chosen_pc, clk, '0');
   
   -- Instruction memory
   instruction_memory_map : instruction_memory generic map (memfile) port map (pc_output, instruction);
@@ -169,7 +173,7 @@ architecture structural of processor is
   --check next line if there are issues:
   register_write_data_mux_map : mux_32 port map (MemtoReg, data_from_memory, ALU_result, data_to_write_to_register);
   destination_register_mux_map : mux_n generic map (5) port map (RegDst, rt, rd, destination_register);
-  register_component_map : register_component port map (data_to_write_to_register, destination_register, rs, rt, ALU_a_input, register_output_b, clk, '0', RegWrite);
+  register_component_map : register_component port map (data_to_write_to_register, destination_register, rs, rt, ALU_a_input, register_output_b, clk, reset, RegWrite);
   
   -- ALU
   -- note: line 145 uses ALU output.
