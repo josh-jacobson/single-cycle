@@ -8,6 +8,7 @@ entity processor is
    port (
     clk : in  std_logic;
     aload : in std_logic_vector(31 downto 0);
+    ad    : in std_logic_vector(31 downto 0);
     reset : in std_logic
   );
 end processor;
@@ -34,6 +35,7 @@ architecture structural of processor is
         port (
           pcc       : out  std_logic_vector(31 downto 0);
           dc       : in  std_logic_vector(31 downto 0);
+          ad      : in std_logic_vector(31 downto 0);
           aload      :in std_logic_vector(31 downto 0);
           clk       : in  std_logic;
           reset       : in  std_logic
@@ -141,8 +143,8 @@ architecture structural of processor is
     signal register_output_b : std_logic_vector (31 downto 0);
     
     -- Program Counter
-    signal pc_output : std_logic_vector(31 downto 0):= "00000000010000000000000000100000";
-    signal chosen_pc, incremented_pc : std_logic_vector(31 downto 0);
+    signal chosen_pc : std_logic_vector(31 downto 0):= "00000000010000000000000000100000";
+    signal pc_output, incremented_pc : std_logic_vector(31 downto 0);
     
     -- branch logic
     signal calculated_branch_address : std_logic_vector (31 downto 0); -- address after adding 4 then adding the branch amount from instruction
@@ -156,7 +158,7 @@ architecture structural of processor is
   begin
   
   -- Program counter
-  pc_counter_map : pc_counter port map (pc_output, aload, chosen_pc, clk, '0');
+  pc_counter_map : pc_counter port map (pc_output, chosen_pc, ad, aload, clk, reset);
   
   -- Instruction memory
   instruction_memory_map : instruction_memory generic map (memfile) port map (pc_output, instruction);

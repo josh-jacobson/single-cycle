@@ -7,7 +7,7 @@ use work.eecs361.all;
 
 entity branch_decider is
    port (
-    zero_flag, bnq, branch : in  std_logic;
+    zero_flag, bnq, branch : in  std_logic:= '0';
     PCSrc : out std_logic
   );
 end branch_decider;
