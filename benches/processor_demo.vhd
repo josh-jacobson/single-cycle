@@ -27,7 +27,7 @@ component processor is
   signal aload: std_logic_vector(31 downto 0);
 begin
 
-demo_map : processor generic map (memfile => "/home/jdj560/single-cycle/bills_branch.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
+demo_map : processor generic map (memfile => "/home/gim871/361ssp/bills_branch.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
   
 test_proc : process
   begin
@@ -52,7 +52,15 @@ test_proc : process
     clk <= '0';
     wait for 400 ns;
     clk <= '1';
-    wait for 400 ns;       
+    wait for 400 ns;    
+        clk <= '0';
+        wait for 400 ns;
+        clk <= '1';
+        wait for 400 ns; 
+        clk <= '0';
+        wait for 400 ns;
+        clk <= '1';
+        wait for 400 ns;          
     wait;
   end process;
 end architecture structural;

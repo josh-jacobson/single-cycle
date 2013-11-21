@@ -9,8 +9,8 @@ port (
     cs : in std_logic;
     oe : in std_logic;
     we : in std_logic;
-    addr : std_logic_vector(31 downto 0);
-    din : std_logic_vector(31 downto 0);
+    addr : in std_logic_vector(31 downto 0);
+    din : in std_logic_vector(31 downto 0);
     dout :out std_logic_vector(31 downto 0)
 );
 end data_memory;
