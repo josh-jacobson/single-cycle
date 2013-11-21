@@ -6,6 +6,7 @@ use work.eecs361.all;
 entity ALU is
    port ( signal A, B: in std_logic_vector (31 downto 0);
            signal m: in std_logic_vector (2 downto 0);
+           signal shamt : in std_logic_vector (4 downto 0);
            signal S: out std_logic_vector (31 downto 0);
            signal c: out std_logic;
            signal zero: out std_logic;
@@ -71,7 +72,7 @@ signal d_out : std_logic_vector(31 downto 0);
 
 begin
 
-  shifter: bitshifter32 port map (a => A, sig => B(4 downto 0), z => sll_out);
+  shifter: bitshifter32 port map (a => B, sig => shamt, z => sll_out);
   orrer: or_gate_32 port map (x => A, y => B, z=> or_out);
   ander: and_gate_32 port map (x => A, y => B, z=> and_out);
   addsubber: add_sub32 port map (a => A, b => B, sub => m(0), z => addsub_out, cout => c);

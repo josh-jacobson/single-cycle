@@ -97,6 +97,7 @@ architecture structural of processor is
     component ALU is
       port ( signal A, B: in std_logic_vector (31 downto 0);
            signal m: in std_logic_vector (2 downto 0);
+           signal shamt : in std_logic_vector (4 downto 0);
            signal S: out std_logic_vector (31 downto 0);
            signal c: out std_logic;
            signal zero: out std_logic;
@@ -178,9 +179,8 @@ architecture structural of processor is
   register_component_map : register_component port map (data_to_write_to_register, destination_register, rs, rt, ALU_a_input, register_output_b, clk, reset, RegWrite);
   
   -- ALU
-  -- note: line 145 uses ALU output.
   alu_source_mux_map : mux_32 port map (ALUSrc, register_output_b, branch_address, ALU_b_input);
-  ALU_map : ALU port map (ALU_a_input, ALU_b_input, ALU_command, ALU_result, carry_out, zero_flag, overflow);
+  ALU_map : ALU port map (ALU_a_input, ALU_b_input, ALU_command, shamt, ALU_result, carry_out, zero_flag, overflow);
   
   -- Data memory:
   data_memory_map : syncram generic map (memfile) port map(clk,'1', MemRead,MemWrite, ALU_result, register_output_b, data_from_memory);
