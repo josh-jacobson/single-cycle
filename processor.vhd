@@ -177,7 +177,7 @@ architecture structural of processor is
   ALU_map : ALU port map (ALU_a_input, ALU_b_input, ALU_command, ALU_result, carry_out, zero_flag, overflow);
   
   -- Data memory:
-  -- TODO ******************
+  data_memory_map : syncram generic map (memfile) port map(clk,'1', MemRead,MemWrite, ALU_result, register_output_b, data_from_memory);
   
   -- next instruction logic
   PC_incrementer_map : rippleadder32 port map(PC_output, "00000000000000000000000000000100", '0', incremented_PC, dummy1);
