@@ -5,7 +5,7 @@ use work.eecs361.all;
 
 entity ALU is
    port ( signal A, B: in std_logic_vector (31 downto 0);
-           signal m: in std_logic_vector (3 downto 0);
+           signal m: in std_logic_vector (2 downto 0);
            signal S: out std_logic_vector (31 downto 0);
            signal c: out std_logic;
            signal zero: out std_logic;
