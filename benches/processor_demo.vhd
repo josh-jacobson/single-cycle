@@ -27,7 +27,7 @@ component processor is
   signal aload: std_logic_vector(31 downto 0);
 begin
 
-demo_map : processor generic map (memfile => "/home/gim871/361ssp/bills_branch.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
+demo_map : processor generic map (memfile => "/home/gim871/361ssp/sort_corrected_branch.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
   
 test_proc : process
   begin
@@ -40,59 +40,6 @@ test_proc : process
     wait for 10 ns;
     aload <= "00000000000000000000000000000000";
     wait for 390 ns;
-    
-    clk <= '1';
-
-    wait for 400 ns;
-    
-    clk <= '0';
-    wait for 400 ns;
-    clk <= '1';
-    wait for 400 ns; 
-    clk <= '0';
-    wait for 400 ns;
-    clk <= '1';
-    wait for 400 ns;    
-        clk <= '0';
-        wait for 400 ns;
-        clk <= '1';
-        wait for 400 ns; 
-        clk <= '0';
-        wait for 400 ns;
-        clk <= '1';
-        wait for 400 ns;       
-                clk <= '0';
-                wait for 400 ns;
-                clk <= '1';
-                wait for 400 ns; 
-                clk <= '0';
-                wait for 400 ns;
-                clk <= '1';
-                wait for 400 ns;       
-        clk <= '0';
-        wait for 400 ns;
-        clk <= '1';
-        wait for 400 ns; 
-        clk <= '0';
-        wait for 400 ns;
-        clk <= '1';
-        wait for 400 ns;    
-            clk <= '0';
-            wait for 400 ns;
-            clk <= '1';
-            wait for 400 ns; 
-            clk <= '0';
-            wait for 400 ns;
-            clk <= '1';
-            wait for 400 ns;       
-                    clk <= '0';
-                    wait for 400 ns;
-                    clk <= '1';
-                    wait for 400 ns; 
-                    clk <= '0';
-                    wait for 400 ns;
-                    clk <= '1';
-                    wait for 400 ns;    
     wait;
   end process;
 end architecture structural;
