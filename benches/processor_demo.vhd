@@ -27,8 +27,8 @@ component processor is
   signal aload: std_logic_vector(31 downto 0);
 begin
 
--- demo_map : processor generic map (memfile => "/home/gim871/361ssp/unsigned_sum.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
-demo_map : processor generic map (memfile => "/home/gim871/361ssp/bills_branch.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
+demo_map : processor generic map (memfile => "/home/gim871/361ssp/unsigned_sum.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
+-- demo_map : processor generic map (memfile => "/home/gim871/361ssp/bills_branch.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
 -- demo_map : processor generic map (memfile => "/home/gim871/361ssp/sort_corrected_branch.dat") port map (clk => clk, aload => aload,ad => ad, reset => rst);
    
 test_proc : process

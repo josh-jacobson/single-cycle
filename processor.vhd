@@ -173,9 +173,14 @@ signal PCSrc : std_logic; -- signal to determine whether to send branch address 
 -- dummy signals
 signal dummy1, dummy2 : std_logic;
 
+signal not_clk : std_logic;
+
 
 
 begin
+
+-- Inverted clock
+not_clk_map : not_gate port map (clk, not_clk);
 
 -- Program counter
 pc_counter_map : pc_counter port map (pc_output, chosen_pc, ad, aload, clk, reset);
@@ -203,7 +208,7 @@ alu_source_mux_map : mux_32 port map (ALUSrc, register_output_b, branch_address,
 ALU_map : ALU port map (ALU_a_input, ALU_b_input, ALU_command, shamt, ALU_result, carry_out, zero_flag, overflow);
 
 -- Data memory:
-data_memory_map : sram generic map (memfile) port map('1', MemRead,MemWrite, ALU_result, register_output_b, data_from_memory);
+data_memory_map : syncram generic map (memfile) port map(not_clk, '1', MemRead,MemWrite, ALU_result, register_output_b, data_from_memory);
 
 -- next instruction logic
 PC_incrementer_map : rippleadder32 port map(PC_output, "00000000000000000000000000000100", '0', incremented_PC, dummy1);
