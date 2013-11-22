@@ -56,7 +56,8 @@ begin
 	notfunct: not_gate_n generic map(n=>6) port map (x => funct, z=> not_funct);
 	op10er : and_gate port map (x => op_code(1), y => not_op(0), z => op10);
 	
-	adds <= funct(5) & not_funct(3) & not_funct(2) & not_funct(1) & not_funct(0) & op10;
+	adds <= funct(5) & not_funct(3) & not_funct(2) & not_funct(1) & '1' & op10; -- addu support attmpt
+	-- adds <= funct(5) & not_funct(3) & not_funct(2) & not_funct(1) & not_funct(0) & op10;
 	radder: and_6 port map (x => adds, z => radd);
 	subs <= funct(5) & not_funct(3) & not_funct(2) & funct(1) & not_funct(0) & op10;
 	rsubber: and_6 port map (x => subs, z => rsub);
