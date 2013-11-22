@@ -200,7 +200,7 @@ data_memory_map : sram generic map (memfile) port map('1', MemRead,MemWrite, ALU
 
 -- next instruction logic
 PC_incrementer_map : rippleadder32 port map(PC_output, "00000000000000000000000000000100", '0', incremented_PC, dummy1);
-add_branch_address_map : rippleadder32 port map(incremented_PC, branch_address, '0', calculated_branch_address, dummy2);
+add_branch_address_map : rippleadder32 port map(PC_output, branch_address, '0', calculated_branch_address, dummy2);
 next_instruction_chooser_map : mux_32 port map (PCSrc, incremented_PC, calculated_branch_address, chosen_pc);
 
 
