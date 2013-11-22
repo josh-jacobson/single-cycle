@@ -101,6 +101,12 @@ x   : in  std_logic_vector(15 downto 0);
 z   : out std_logic_vector(31 downto 0)
 );
 end component sign_extender;
+component pc_sign_extender is
+port (
+x   : in  std_logic_vector(17 downto 2);
+z   : out std_logic_vector(31 downto 0)
+);
+end component pc_sign_extender;
 component branch_decider is
 port (
 zero_flag, bnq, branch : in  std_logic;
@@ -134,7 +140,7 @@ signal opcode   : std_logic_vector(5 downto 0);
 signal rs, rt, rd, shamt   : std_logic_vector(4 downto 0);
 signal funct   : std_logic_vector(5 downto 0);
 signal branch_address16 : std_logic_vector(15 downto 0); -- 16 bit address from branch instruction
-signal branch_address : std_logic_vector(31 downto 0);   -- 32 bit sign-extended full address from branch instruction
+signal branch_address, pc_branch_address : std_logic_vector(31 downto 0);   -- 32 bit sign-extended full address from branch instruction
 
 -- main control unit signals:
 signal regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch, bnq : std_logic;
@@ -181,6 +187,7 @@ instruction_memory_map : instruction_memory generic map (memfile) port map (pc_o
 instruction_decoder_map: instruction_decoder port map (instruction, opcode, rs, rt, rd, shamt, funct, branch_address16);
 control_unit_map : control_unit port map (opcode, regDst, ALUSrc, MemtoReg, RegWrite, MemRead, MemWrite, branch, bnq, ALUop);
 sign_extender_map : sign_extender port map (branch_address16, branch_address);
+pc_sign_extender_map : pc_sign_extender port map (branch_address16, pc_branch_address);
 
 -- ALU controller
 alu_control_map : alu_control port map (funct, ALUop, ALU_command);
@@ -200,7 +207,7 @@ data_memory_map : sram generic map (memfile) port map('1', MemRead,MemWrite, ALU
 
 -- next instruction logic
 PC_incrementer_map : rippleadder32 port map(PC_output, "00000000000000000000000000000100", '0', incremented_PC, dummy1);
-add_branch_address_map : rippleadder32 port map(PC_output, branch_address, '0', calculated_branch_address, dummy2);
+add_branch_address_map : rippleadder32 port map(incremented_PC, pc_branch_address, '0', calculated_branch_address, dummy2);
 next_instruction_chooser_map : mux_32 port map (PCSrc, incremented_PC, calculated_branch_address, chosen_pc);
 
 
